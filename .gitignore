@@ -1,0 +1,12 @@
+# Build products
+/bin/
+/lib/
+/db/
+/dbd/
+/include/
+/templates/
+/html/
+/share/
+O.*/
+/configure/*.local
+/iocBoot/*/envPaths

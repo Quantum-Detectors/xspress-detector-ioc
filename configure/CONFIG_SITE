@@ -1,0 +1,23 @@
+# CONFIG_SITE
+
+# Make any application-specific changes to the EPICS build configuration
+# variables in this file. Host/target specific settings can be given in files
+# named CONFIG_SITE.$(EPICS_HOST_ARCH).Common, CONFIG_SITE.Common.$(T_A) or
+# CONFIG_SITE.$(EPICS_HOST_ARCH).$(T_A).
+
+# Check the support modules in the RELEASE files for consistency.
+CHECK_RELEASE = YES
+
+# Host IOC only.
+CROSS_COMPILER_TARGET_ARCHS =
+
+# To install into a location other than $(TOP), define INSTALL_LOCATION.
+#INSTALL_LOCATION = </absolute/path/to/install/top>
+
+# Set this when the IOC and build host use different paths to the install
+# location.
+#IOCS_APPL_TOP = </IOC's/absolute/path/to/install/top>
+
+# Override any of the settings above without editing this file.
+-include $(TOP)/../CONFIG_SITE.local
+-include $(TOP)/configure/CONFIG_SITE.local
