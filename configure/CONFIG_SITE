@@ -18,6 +18,12 @@ CROSS_COMPILER_TARGET_ARCHS =
 # location.
 #IOCS_APPL_TOP = </IOC's/absolute/path/to/install/top>
 
+# GUI launcher (bin/<arch>/stxspress-gui):
+# - a shell script it sources first to set up EDM (optional)
+XSPRESS_GUI_ENV =
+# - the file it reads XSPRESS_NUM_CARDS from, as the IOC's environment
+XSPRESS_IOC_ENV = /etc/xspress.d/xspress-ioc.env
+
 # Override any of the settings above without editing this file.
 -include $(TOP)/../CONFIG_SITE.local
 -include $(TOP)/configure/CONFIG_SITE.local

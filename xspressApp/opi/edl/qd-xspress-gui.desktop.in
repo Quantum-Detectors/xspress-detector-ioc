@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=QD Xspress GUI
+Comment=EDM screens for the QD xspress EPICS IOC
+Exec=@TOP@/bin/@ARCH@/stxspress-gui
+Terminal=false
+Categories=Science;

@@ -20,6 +20,8 @@ ADSUPPORT = $(SUPPORT)/ADSupport
 ADCORE = $(SUPPORT)/ADCore
 RESTCLIENT = $(SUPPORT)/restClient
 ADODIN = $(SUPPORT)/ADOdin
+# Screens only: the start/stop/status display of the IOC's procServ.
+PROCSERVCONTROL = $(SUPPORT)/procServControl
 
 # EPICS_BASE should appear last so earlier modules can override stuff:
 EPICS_BASE = /path/to/epics/base
