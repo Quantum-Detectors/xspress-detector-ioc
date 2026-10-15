@@ -1,4 +1,4 @@
-# qd-xspress-ioc
+# xspress-detector-ioc
 
 EPICS IOC for the Quantum Detectors Xspress detector system. It talks to the
 Xspress odin-control server over REST through the ADOdin driver and comes with
