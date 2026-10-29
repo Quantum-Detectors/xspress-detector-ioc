@@ -17,8 +17,7 @@ its EDM screens and a GUI launcher.
 ## Build
 
 Needs EPICS base 7 and these support modules: sequencer, sscan, calc, asyn,
-autosave, busy, ADSupport, ADCore, restClient, ADOdin and procServControl
-(its screens only).
+autosave, busy, ADSupport, ADCore, restClient and ADOdin.
 
 1. Put the module paths in `configure/RELEASE.local`, e.g.
 
