@@ -421,3 +421,26 @@ font "arial-medium-r-16.0"
 label "EXIT"
 topShadowColor index 1
 endObjectProperties
+
+# (Related Display)
+object relatedDisplayClass
+beginObjectProperties
+h 20
+major 4
+minor 2
+release 0
+w 90
+x 110
+y 40
+bgColor index 3
+botShadowColor index 11
+buttonLabel "Services"
+displayFileName {
+  0 "xspress-sc-wiring.edl"
+}
+fgColor index 43
+font "arial-bold-r-14.0"
+numDsps 1
+numPvs 4
+topShadowColor index 1
+endObjectProperties
