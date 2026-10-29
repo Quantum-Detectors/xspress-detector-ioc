@@ -1,0 +1,6402 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 100
+y 100
+w 1410
+h 606
+font "arial-medium-r-12.0"
+ctlFont "arial-medium-r-12.0"
+btnFont "arial-medium-r-12.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 0
+ctlBgColor1 index 0
+ctlBgColor2 index 14
+topShadowColor index 0
+botShadowColor index 14
+title "Edges - XSPRESS:SC"
+showGrid
+snapToGrid
+gridSize 4
+disableScroll
+endScreenProperties
+
+# (Static Text)
+object activeXTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 10
+y 10
+w 200
+h 20
+font "arial-bold-r-12.0"
+fontAlign "left"
+fgColor index 14
+bgColor index 3
+useDisplayBg
+value {
+  "Edges"
+}
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 36
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 36
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 36
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 36
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 36
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 34
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 34
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 34
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR1-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 60
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 60
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 60
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 60
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 60
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 58
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 58
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 58
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR2-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 84
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 84
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 84
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 84
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 84
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 82
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 82
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 82
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR3-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 108
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 108
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 108
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 108
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 108
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 106
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 106
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 106
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FR4-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 132
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 132
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 132
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 132
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 132
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 130
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 130
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 130
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP1-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 156
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 156
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 156
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 156
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 156
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 154
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 154
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 154
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP2-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 180
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 180
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 180
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 180
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 180
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 178
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 178
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 178
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP3-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 204
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 204
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 204
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 204
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 204
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 202
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 202
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 202
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-FP4-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 228
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 228
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 228
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 228
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 228
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 226
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 226
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 226
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP1-FR1-FRAME_READY:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 252
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 252
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 252
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 252
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 252
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 250
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 250
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 250
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP2-FR2-FRAME_READY:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 276
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 276
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 276
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 276
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 276
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 274
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 274
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 274
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP3-FR3-FRAME_READY:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 300
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 300
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 300
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 300
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 300
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 298
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 298
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 298
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP4-FR4-FRAME_READY:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 324
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 324
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 324
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 324
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 324
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 322
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 322
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 322
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP1-FR1-FRAME_RELEASE:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 348
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 348
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 348
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 348
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 348
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 346
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 346
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 346
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP2-FR2-FRAME_RELEASE:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 372
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 372
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 372
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 372
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 372
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 370
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 370
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 370
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP3-FR3-FRAME_RELEASE:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 396
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 396
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 396
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 396
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 396
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 394
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 394
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 394
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FP4-FR4-FRAME_RELEASE:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 420
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP1-META:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 420
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP1-META:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 420
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:META-FP1-META:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 420
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:META-FP1-META:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 420
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:META-FP1-META:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 418
+w 330
+h 20
+controlPv "XSPRESS:SC:E:META-FP1-META:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 418
+w 200
+h 20
+controlPv "XSPRESS:SC:E:META-FP1-META:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 418
+w 130
+h 20
+controlPv "XSPRESS:SC:E:META-FP1-META:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 444
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP2-META:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 444
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP2-META:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 444
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:META-FP2-META:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 444
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:META-FP2-META:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 444
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:META-FP2-META:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 442
+w 330
+h 20
+controlPv "XSPRESS:SC:E:META-FP2-META:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 442
+w 200
+h 20
+controlPv "XSPRESS:SC:E:META-FP2-META:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 442
+w 130
+h 20
+controlPv "XSPRESS:SC:E:META-FP2-META:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 468
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP3-META:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 468
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP3-META:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 468
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:META-FP3-META:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 468
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:META-FP3-META:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 468
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:META-FP3-META:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 466
+w 330
+h 20
+controlPv "XSPRESS:SC:E:META-FP3-META:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 466
+w 200
+h 20
+controlPv "XSPRESS:SC:E:META-FP3-META:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 466
+w 130
+h 20
+controlPv "XSPRESS:SC:E:META-FP3-META:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 492
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP4-META:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 492
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:META-FP4-META:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 492
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:META-FP4-META:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 492
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:META-FP4-META:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 492
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:META-FP4-META:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 490
+w 330
+h 20
+controlPv "XSPRESS:SC:E:META-FP4-META:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 490
+w 200
+h 20
+controlPv "XSPRESS:SC:E:META-FP4-META:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 490
+w 130
+h 20
+controlPv "XSPRESS:SC:E:META-FP4-META:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 516
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 516
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 516
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 516
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 516
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 514
+w 330
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 514
+w 200
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 514
+w 130
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP1-LIVEVIEW:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 540
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 540
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 540
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 540
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 10
+y 540
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 30
+y 538
+w 330
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 365
+y 538
+w 200
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 570
+y 538
+w 130
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP2-LIVEVIEW:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 36
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 36
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 36
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 36
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 36
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 34
+w 330
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 34
+w 200
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 34
+w 130
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP3-LIVEVIEW:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 60
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 60
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 60
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 60
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 60
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 58
+w 330
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 58
+w 200
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 58
+w 130
+h 20
+controlPv "XSPRESS:SC:E:LVM-FP4-LIVEVIEW:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 84
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 84
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 84
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 84
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 84
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 82
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 82
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 82
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-XCTRL-CONTROL:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 108
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-META-META:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 108
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:ODIN-META-META:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 108
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:ODIN-META-META:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 108
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:ODIN-META-META:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 108
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:ODIN-META-META:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 106
+w 330
+h 20
+controlPv "XSPRESS:SC:E:ODIN-META-META:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 106
+w 200
+h 20
+controlPv "XSPRESS:SC:E:ODIN-META-META:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 106
+w 130
+h 20
+controlPv "XSPRESS:SC:E:ODIN-META-META:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 132
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:IOC-ODIN-HTTP:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 132
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:IOC-ODIN-HTTP:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 132
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:IOC-ODIN-HTTP:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 132
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:IOC-ODIN-HTTP:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 132
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:IOC-ODIN-HTTP:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 130
+w 330
+h 20
+controlPv "XSPRESS:SC:E:IOC-ODIN-HTTP:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 130
+w 200
+h 20
+controlPv "XSPRESS:SC:E:IOC-ODIN-HTTP:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 130
+w 130
+h 20
+controlPv "XSPRESS:SC:E:IOC-ODIN-HTTP:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 156
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:IOC-LVM-PUB:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 156
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:IOC-LVM-PUB:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 156
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:IOC-LVM-PUB:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 156
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:IOC-LVM-PUB:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 156
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:IOC-LVM-PUB:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 154
+w 330
+h 20
+controlPv "XSPRESS:SC:E:IOC-LVM-PUB:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 154
+w 200
+h 20
+controlPv "XSPRESS:SC:E:IOC-LVM-PUB:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 154
+w 130
+h 20
+controlPv "XSPRESS:SC:E:IOC-LVM-PUB:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 180
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 180
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 180
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 180
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 180
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 178
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 178
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 178
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30124:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 204
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 204
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 204
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 204
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 204
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 202
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 202
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 202
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30124:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 228
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 228
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 228
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 228
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 228
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 226
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 226
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 226
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30124:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 252
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 252
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 252
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 252
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 252
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 250
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 250
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 250
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30124:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 276
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 276
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 276
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 276
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 276
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 274
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 274
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 274
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30126:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 300
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 300
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 300
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 300
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 300
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 298
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 298
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 298
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30126:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 324
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 324
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 324
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 324
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 324
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 322
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 322
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 322
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30126:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 348
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 348
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 348
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 348
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 348
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 346
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 346
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 346
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30126:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 372
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 372
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 372
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 372
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 372
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 370
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 370
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 370
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD1-P30127:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 396
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 396
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 396
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 396
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 396
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 394
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 394
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 394
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD2-P30127:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 420
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 420
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 420
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 420
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 420
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 418
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 418
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 418
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD3-P30127:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 444
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 444
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 444
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 444
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 444
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 442
+w 330
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 442
+w 200
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 442
+w 130
+h 20
+controlPv "XSPRESS:SC:E:XCTRL-CARD4-P30127:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 468
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 468
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 468
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 468
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 468
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 466
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 466
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 466
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FR1-XCTRL-DAQ1:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 492
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 492
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 492
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 492
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 492
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 490
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 490
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 490
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FR2-XCTRL-DAQ2:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 516
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 516
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 516
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 516
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 516
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 514
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 514
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 514
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FR3-XCTRL-DAQ3:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 540
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:STATE"
+visMin "0"
+visMax "1"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 540
+w 16
+h 16
+lineColor rgb 40606 40606 40606
+fill
+fillColor rgb 40606 40606 40606
+visPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:STATE"
+visMin "1"
+visMax "2"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 540
+w 16
+h 16
+lineColor rgb 65535 52428 0
+fill
+fillColor rgb 65535 52428 0
+visPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:STATE"
+visMin "2"
+visMax "3"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 540
+w 16
+h 16
+lineColor rgb 0 65535 0
+fill
+fillColor rgb 0 65535 0
+visPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:STATE"
+visMin "3"
+visMax "4"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 710
+y 540
+w 16
+h 16
+lineColor rgb 65535 0 0
+fill
+fillColor rgb 65535 0 0
+visPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:STATE"
+visMin "4"
+visMax "5"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 730
+y 538
+w 330
+h 20
+controlPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:DESC"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1065
+y 538
+w 200
+h 20
+controlPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:DETAIL"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Textupdate)
+object TextupdateClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 1270
+y 538
+w 130
+h 20
+controlPv "XSPRESS:SC:E:FR4-XCTRL-DAQ4:SINCE"
+fgColor index 16
+fgAlarm
+bgColor index 10
+fill
+font "arial-medium-r-12.0"
+endObjectProperties
+
+# (Exit Button)
+object activeExitButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 1340
+y 572
+w 60
+h 24
+fgColor index 46
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+label "EXIT"
+font "arial-bold-r-12.0"
+3d
+endObjectProperties

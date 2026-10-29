@@ -112,17 +112,4 @@ file "NDStdArrays.template"
 pattern { P, R, PORT, TYPE, FTVL, NELEMENTS, TIMEOUT, ADDR, NDARRAY_PORT, NDARRAY_ADDR, ENABLED, SCANRATE }
     { "XSPRESS", ":ARR:", "ODN.ARR", "Int32", "ULONG", "2359296", "1", "0", "ODN.CAM", "0", "0", "I/O Intr" }
 }
-
-# The IOC's own procServ (the other services are not run under procServ)
-file "OdinProcServProcess.template"
-{
-pattern { name, APPLICATION_NAME, PROCESS_NAME }
-    { "ODN", "XSPRESS", "XSPRESS" }
-}
-
-file "OdinProcServ.template"
-{
-pattern { name, PREFIX }
-    { "ODN", "XSP-PROC-SERV" }
-}
 END
