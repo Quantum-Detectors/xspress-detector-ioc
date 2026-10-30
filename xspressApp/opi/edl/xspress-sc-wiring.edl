@@ -6586,9 +6586,10 @@ x 145
 y 12
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:STATE"
 visMin "0"
 visMax "1"
@@ -6604,9 +6605,10 @@ x 145
 y 12
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:STATE"
 visMin "1"
 visMax "2"
@@ -6622,9 +6624,10 @@ x 145
 y 12
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:STATE"
 visMin "2"
 visMax "3"
@@ -6640,9 +6643,10 @@ x 145
 y 12
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:STATE"
 visMin "3"
 visMax "4"
@@ -6658,9 +6662,10 @@ x 145
 y 12
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:STATE"
 visMin "4"
 visMax "5"
@@ -6896,9 +6901,10 @@ x 14
 y 112
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:IOC:STATE"
 visMin "0"
 visMax "1"
@@ -6914,9 +6920,10 @@ x 14
 y 112
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:IOC:STATE"
 visMin "1"
 visMax "2"
@@ -6932,9 +6939,10 @@ x 14
 y 112
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:IOC:STATE"
 visMin "2"
 visMax "3"
@@ -6950,9 +6958,10 @@ x 14
 y 112
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:IOC:STATE"
 visMin "3"
 visMax "4"
@@ -6968,9 +6977,10 @@ x 14
 y 112
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:IOC:STATE"
 visMin "4"
 visMax "5"
@@ -7209,9 +7219,10 @@ x 234
 y 112
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:ODIN:STATE"
 visMin "0"
 visMax "1"
@@ -7227,9 +7238,10 @@ x 234
 y 112
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:ODIN:STATE"
 visMin "1"
 visMax "2"
@@ -7245,9 +7257,10 @@ x 234
 y 112
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:ODIN:STATE"
 visMin "2"
 visMax "3"
@@ -7263,9 +7276,10 @@ x 234
 y 112
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:ODIN:STATE"
 visMin "3"
 visMax "4"
@@ -7281,9 +7295,10 @@ x 234
 y 112
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:ODIN:STATE"
 visMin "4"
 visMax "5"
@@ -7522,9 +7537,10 @@ x 814
 y 112
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:LVM:STATE"
 visMin "0"
 visMax "1"
@@ -7540,9 +7556,10 @@ x 814
 y 112
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:LVM:STATE"
 visMin "1"
 visMax "2"
@@ -7558,9 +7575,10 @@ x 814
 y 112
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:LVM:STATE"
 visMin "2"
 visMax "3"
@@ -7576,9 +7594,10 @@ x 814
 y 112
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:LVM:STATE"
 visMin "3"
 visMax "4"
@@ -7594,9 +7613,10 @@ x 814
 y 112
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:LVM:STATE"
 visMin "4"
 visMax "5"
@@ -7835,9 +7855,10 @@ x 196
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:XCTRL:STATE"
 visMin "0"
 visMax "1"
@@ -7853,9 +7874,10 @@ x 196
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:XCTRL:STATE"
 visMin "1"
 visMax "2"
@@ -7871,9 +7893,10 @@ x 196
 y 268
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:XCTRL:STATE"
 visMin "2"
 visMax "3"
@@ -7889,9 +7912,10 @@ x 196
 y 268
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:XCTRL:STATE"
 visMin "3"
 visMax "4"
@@ -7907,9 +7931,10 @@ x 196
 y 268
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:XCTRL:STATE"
 visMin "4"
 visMax "5"
@@ -8186,9 +8211,10 @@ x 1064
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:META:STATE"
 visMin "0"
 visMax "1"
@@ -8204,9 +8230,10 @@ x 1064
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:META:STATE"
 visMin "1"
 visMax "2"
@@ -8222,9 +8249,10 @@ x 1064
 y 268
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:META:STATE"
 visMin "2"
 visMax "3"
@@ -8240,9 +8268,10 @@ x 1064
 y 268
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:META:STATE"
 visMin "3"
 visMax "4"
@@ -8258,9 +8287,10 @@ x 1064
 y 268
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:META:STATE"
 visMin "4"
 visMax "5"
@@ -8537,9 +8567,10 @@ x 504
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR1:STATE"
 visMin "0"
 visMax "1"
@@ -8555,9 +8586,10 @@ x 504
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR1:STATE"
 visMin "1"
 visMax "2"
@@ -8573,9 +8605,10 @@ x 504
 y 268
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FR1:STATE"
 visMin "2"
 visMax "3"
@@ -8591,9 +8624,10 @@ x 504
 y 268
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FR1:STATE"
 visMin "3"
 visMax "4"
@@ -8609,9 +8643,10 @@ x 504
 y 268
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FR1:STATE"
 visMin "4"
 visMax "5"
@@ -8850,9 +8885,10 @@ x 814
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP1:STATE"
 visMin "0"
 visMax "1"
@@ -8868,9 +8904,10 @@ x 814
 y 268
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP1:STATE"
 visMin "1"
 visMax "2"
@@ -8886,9 +8923,10 @@ x 814
 y 268
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FP1:STATE"
 visMin "2"
 visMax "3"
@@ -8904,9 +8942,10 @@ x 814
 y 268
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FP1:STATE"
 visMin "3"
 visMax "4"
@@ -8922,9 +8961,10 @@ x 814
 y 268
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FP1:STATE"
 visMin "4"
 visMax "5"
@@ -9217,9 +9257,10 @@ x 504
 y 438
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR2:STATE"
 visMin "0"
 visMax "1"
@@ -9235,9 +9276,10 @@ x 504
 y 438
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR2:STATE"
 visMin "1"
 visMax "2"
@@ -9253,9 +9295,10 @@ x 504
 y 438
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FR2:STATE"
 visMin "2"
 visMax "3"
@@ -9271,9 +9314,10 @@ x 504
 y 438
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FR2:STATE"
 visMin "3"
 visMax "4"
@@ -9289,9 +9333,10 @@ x 504
 y 438
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FR2:STATE"
 visMin "4"
 visMax "5"
@@ -9530,9 +9575,10 @@ x 814
 y 438
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP2:STATE"
 visMin "0"
 visMax "1"
@@ -9548,9 +9594,10 @@ x 814
 y 438
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP2:STATE"
 visMin "1"
 visMax "2"
@@ -9566,9 +9613,10 @@ x 814
 y 438
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FP2:STATE"
 visMin "2"
 visMax "3"
@@ -9584,9 +9632,10 @@ x 814
 y 438
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FP2:STATE"
 visMin "3"
 visMax "4"
@@ -9602,9 +9651,10 @@ x 814
 y 438
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FP2:STATE"
 visMin "4"
 visMax "5"
@@ -9897,9 +9947,10 @@ x 504
 y 608
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR3:STATE"
 visMin "0"
 visMax "1"
@@ -9915,9 +9966,10 @@ x 504
 y 608
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR3:STATE"
 visMin "1"
 visMax "2"
@@ -9933,9 +9985,10 @@ x 504
 y 608
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FR3:STATE"
 visMin "2"
 visMax "3"
@@ -9951,9 +10004,10 @@ x 504
 y 608
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FR3:STATE"
 visMin "3"
 visMax "4"
@@ -9969,9 +10023,10 @@ x 504
 y 608
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FR3:STATE"
 visMin "4"
 visMax "5"
@@ -10210,9 +10265,10 @@ x 814
 y 608
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP3:STATE"
 visMin "0"
 visMax "1"
@@ -10228,9 +10284,10 @@ x 814
 y 608
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP3:STATE"
 visMin "1"
 visMax "2"
@@ -10246,9 +10303,10 @@ x 814
 y 608
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FP3:STATE"
 visMin "2"
 visMax "3"
@@ -10264,9 +10322,10 @@ x 814
 y 608
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FP3:STATE"
 visMin "3"
 visMax "4"
@@ -10282,9 +10341,10 @@ x 814
 y 608
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FP3:STATE"
 visMin "4"
 visMax "5"
@@ -10577,9 +10637,10 @@ x 504
 y 778
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR4:STATE"
 visMin "0"
 visMax "1"
@@ -10595,9 +10656,10 @@ x 504
 y 778
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FR4:STATE"
 visMin "1"
 visMax "2"
@@ -10613,9 +10675,10 @@ x 504
 y 778
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FR4:STATE"
 visMin "2"
 visMax "3"
@@ -10631,9 +10694,10 @@ x 504
 y 778
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FR4:STATE"
 visMin "3"
 visMax "4"
@@ -10649,9 +10713,10 @@ x 504
 y 778
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FR4:STATE"
 visMin "4"
 visMax "5"
@@ -10890,9 +10955,10 @@ x 814
 y 778
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP4:STATE"
 visMin "0"
 visMax "1"
@@ -10908,9 +10974,10 @@ x 814
 y 778
 w 16
 h 16
-lineColor index 6
+lineColor index 14
 fill
 fillColor index 6
+lineWidth 2
 visPv "XSPRESS:SC:FP4:STATE"
 visMin "1"
 visMax "2"
@@ -10926,9 +10993,10 @@ x 814
 y 778
 w 16
 h 16
-lineColor index 38
+lineColor index 14
 fill
 fillColor index 38
+lineWidth 2
 visPv "XSPRESS:SC:FP4:STATE"
 visMin "2"
 visMax "3"
@@ -10944,9 +11012,10 @@ x 814
 y 778
 w 16
 h 16
-lineColor index 15
+lineColor index 14
 fill
 fillColor index 15
+lineWidth 2
 visPv "XSPRESS:SC:FP4:STATE"
 visMin "3"
 visMax "4"
@@ -10962,9 +11031,10 @@ x 814
 y 778
 w 16
 h 16
-lineColor index 20
+lineColor index 14
 fill
 fillColor index 20
+lineWidth 2
 visPv "XSPRESS:SC:FP4:STATE"
 visMin "4"
 visMax "5"
