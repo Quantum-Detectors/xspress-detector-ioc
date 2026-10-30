@@ -1,7 +1,13 @@
 #!/bin/bash
 # stxspress-gui: opens the xspress EDM screens (xspressTop.edl).
 #
-# Usage: stxspress-gui [-d]   (-d: edit mode, screens from this IOC first)
+# Usage: stxspress-gui [-d] [--colours NAME]
+#   -d              edit mode, screens from this IOC first
+#   --colours NAME  colour scheme: classic (the installed colors.list, the
+#                   default) or a directory under xspressApp/opi/colours
+#
+# QD_XSPRESS_EDM_COLOURS=true (or yes, 1) in the environment makes the QD
+# scheme the default instead of classic.
 #
 # The number of cards (XSPRESS_NUM_CARDS) selects the screens that depend on
 # it; it comes from the environment, else from @XSPRESS_IOC_ENV@,
@@ -17,10 +23,75 @@ GUI_ENV=@XSPRESS_GUI_ENV@
 IOC_ENV=@XSPRESS_IOC_ENV@
 
 PROG=$(basename "$0")
+COLOURS_DIR=${TOP}/xspressApp/opi/colours
+
+# The schemes: classic plus each directory with a colors.list.
+schemes() {
+    local d
+    echo classic
+    for d in "${COLOURS_DIR}"/*/colors.list; do
+        [ -f "${d}" ] && basename "$(dirname "${d}")"
+    done
+}
+usage() {
+    echo "usage: ${PROG} [-d] [--colours NAME]" >&2
+    echo "colour schemes: $(schemes | tr '\n' ' ')" >&2
+    exit 2
+}
+
+EDIT=
+# QD_XSPRESS_EDM_COLOURS=true, yes or 1 (any case) makes the QD scheme the
+# default, e.g. for the desktop entry; --colours overrides it.
+COLOURS=classic
+case $(printf '%s' "${QD_XSPRESS_EDM_COLOURS}" | tr '[:upper:]' '[:lower:]') in
+    true|yes|1) COLOURS=qd ;;
+esac
+while [ $# -gt 0 ]; do
+    case $1 in
+        -d) EDIT=1 ;;
+        --colours=?*) COLOURS=${1#--colours=} ;;
+        --colours) [ $# -ge 2 ] || usage; COLOURS=$2; shift ;;
+        *) usage ;;
+    esac
+    shift
+done
+schemes | grep -qxF -- "${COLOURS}" || usage
 
 # EDM set-up, if the build named a script for it.
 if [ -n "${GUI_ENV}" ] && [ -r "${GUI_ENV}" ]; then
     . "${GUI_ENV}"
+fi
+
+# A scheme other than classic: EDM reads colors.list from EDMFILES, next to
+# fonts.list and edmPrintDef (without which it draws every colour black), so
+# point EDMFILES at a per-user directory holding the scheme's colors.list and
+# links to the installed files.
+if [ "${COLOURS}" != classic ]; then
+    if [ -z "${EDMFILES}" ] || [ ! -d "${EDMFILES}" ]; then
+        echo "${PROG}: EDMFILES is not set to EDM's config directory" >&2
+        exit 1
+    fi
+    # The per-user directory goes in XDG_RUNTIME_DIR if that is ours (after
+    # su without -, it is the other user's), else in TMPDIR or /tmp. Those
+    # may be shared: use the directory only if it is ours and not a link.
+    RUNTIME_DIR=${TMPDIR:-/tmp}
+    if [ -n "${XDG_RUNTIME_DIR}" ] && [ -d "${XDG_RUNTIME_DIR}" ] \
+            && [ -O "${XDG_RUNTIME_DIR}" ] && [ -w "${XDG_RUNTIME_DIR}" ]; then
+        RUNTIME_DIR=${XDG_RUNTIME_DIR}
+    fi
+    USER_FILES=${RUNTIME_DIR}/stxspress-gui-$(id -u)
+    mkdir -m 700 "${USER_FILES}" 2>/dev/null
+    if [ -L "${USER_FILES}" ] || [ ! -d "${USER_FILES}" ] || [ ! -O "${USER_FILES}" ]; then
+        echo "${PROG}: ${USER_FILES} is not a directory of this user" >&2
+        exit 1
+    fi
+    SCHEME_FILES=${USER_FILES}/${COLOURS}
+    mkdir -p "${SCHEME_FILES}" || exit 1
+    for f in "${EDMFILES}"/*; do
+        [ "$(basename "${f}")" = colors.list ] || ln -sfn "${f}" "${SCHEME_FILES}/"
+    done
+    ln -sfn "${COLOURS_DIR}/${COLOURS}/colors.list" "${SCHEME_FILES}/colors.list"
+    export EDMFILES=${SCHEME_FILES}
 fi
 if ! command -v edm >/dev/null 2>&1; then
     echo "${PROG}: edm not found on PATH" >&2
@@ -59,7 +130,7 @@ if [ -n "${DISPLAY}" ] && [ -d "${LIBERATION_SANS}" ] \
 fi
 
 unset EDMDATAFILES
-if [ "$1" = "-d" ]; then
+if [ -n "${EDIT}" ]; then
     OPTS="-x -eolc"
 else
     OPTS="-x -eolc -noedit"

@@ -12,6 +12,7 @@ its EDM screens and a GUI launcher.
 | `xspressApp/src/` | The `xspress` IOC executable |
 | `xspressApp/Db/` | `xspress-substitutions.sh`, which makes one database per card count |
 | `xspressApp/opi/edl/` | EDM screens (including the service control screens), the `stxspress-gui` launcher and its desktop entry |
+| `xspressApp/opi/colours/` | EDM colour schemes other than the installed one (`qd`), see its README |
 | `iocBoot/iocxspress/` | Start-up script `stxspress.boot`; `envPaths` is written by make |
 
 ## Build
@@ -69,6 +70,18 @@ It reads `XSPRESS_NUM_CARDS` from the environment, else from the
 - the MCA screen always shows channels 1-8.
 
 `share/applications/qd-xspress-gui.desktop` starts the launcher.
+
+`--colours qd` shows the screens in the Quantum Detectors colour scheme
+(`xspressApp/opi/colours/qd/`) instead of the installed `colors.list`
+(`--colours classic`, the default). The launcher links the scheme's
+`colors.list` and the other installed EDM config files into a per-user
+directory and points `EDMFILES` at it. `xspressApp/opi/edl/test-stxspress-gui.sh`
+tests the options without EPICS.
+
+To make the QD scheme the default, including for the desktop entry, set
+`QD_XSPRESS_EDM_COLOURS=true` (or `yes`, `1`) in the environment, e.g. in a
+file under `/etc/profile.d/` for every user. `--colours classic` still
+overrides it.
 
 ### Service control screens
 

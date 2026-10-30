@@ -452,9 +452,10 @@ x 185
 y 325
 w 16
 h 16
-lineColor rgb 40606 40606 40606
+lineColor index 14
 fill
 fillColor rgb 40606 40606 40606
+lineWidth 2
 visPv "XSPRESS:SC:FR2:CONTROL:STATE"
 visMin "0"
 visMax "1"
@@ -470,9 +471,10 @@ x 185
 y 325
 w 16
 h 16
-lineColor rgb 40606 40606 40606
+lineColor index 14
 fill
 fillColor rgb 40606 40606 40606
+lineWidth 2
 visPv "XSPRESS:SC:FR2:CONTROL:STATE"
 visMin "1"
 visMax "2"
@@ -488,9 +490,10 @@ x 185
 y 325
 w 16
 h 16
-lineColor rgb 65535 52428 0
+lineColor index 14
 fill
 fillColor rgb 65535 52428 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:CONTROL:STATE"
 visMin "2"
 visMax "3"
@@ -506,9 +509,10 @@ x 185
 y 325
 w 16
 h 16
-lineColor rgb 0 65535 0
+lineColor index 14
 fill
 fillColor rgb 0 65535 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:CONTROL:STATE"
 visMin "3"
 visMax "4"
@@ -524,9 +528,10 @@ x 185
 y 325
 w 16
 h 16
-lineColor rgb 65535 0 0
+lineColor index 14
 fill
 fillColor rgb 65535 0 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:CONTROL:STATE"
 visMin "4"
 visMax "5"
@@ -616,9 +621,10 @@ x 185
 y 349
 w 16
 h 16
-lineColor rgb 40606 40606 40606
+lineColor index 14
 fill
 fillColor rgb 40606 40606 40606
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_READY:STATE"
 visMin "0"
 visMax "1"
@@ -634,9 +640,10 @@ x 185
 y 349
 w 16
 h 16
-lineColor rgb 40606 40606 40606
+lineColor index 14
 fill
 fillColor rgb 40606 40606 40606
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_READY:STATE"
 visMin "1"
 visMax "2"
@@ -652,9 +659,10 @@ x 185
 y 349
 w 16
 h 16
-lineColor rgb 65535 52428 0
+lineColor index 14
 fill
 fillColor rgb 65535 52428 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_READY:STATE"
 visMin "2"
 visMax "3"
@@ -670,9 +678,10 @@ x 185
 y 349
 w 16
 h 16
-lineColor rgb 0 65535 0
+lineColor index 14
 fill
 fillColor rgb 0 65535 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_READY:STATE"
 visMin "3"
 visMax "4"
@@ -688,9 +697,10 @@ x 185
 y 349
 w 16
 h 16
-lineColor rgb 65535 0 0
+lineColor index 14
 fill
 fillColor rgb 65535 0 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_READY:STATE"
 visMin "4"
 visMax "5"
@@ -780,9 +790,10 @@ x 185
 y 373
 w 16
 h 16
-lineColor rgb 40606 40606 40606
+lineColor index 14
 fill
 fillColor rgb 40606 40606 40606
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_RELEASE:STATE"
 visMin "0"
 visMax "1"
@@ -798,9 +809,10 @@ x 185
 y 373
 w 16
 h 16
-lineColor rgb 40606 40606 40606
+lineColor index 14
 fill
 fillColor rgb 40606 40606 40606
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_RELEASE:STATE"
 visMin "1"
 visMax "2"
@@ -816,9 +828,10 @@ x 185
 y 373
 w 16
 h 16
-lineColor rgb 65535 52428 0
+lineColor index 14
 fill
 fillColor rgb 65535 52428 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_RELEASE:STATE"
 visMin "2"
 visMax "3"
@@ -834,9 +847,10 @@ x 185
 y 373
 w 16
 h 16
-lineColor rgb 0 65535 0
+lineColor index 14
 fill
 fillColor rgb 0 65535 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_RELEASE:STATE"
 visMin "3"
 visMax "4"
@@ -852,9 +866,10 @@ x 185
 y 373
 w 16
 h 16
-lineColor rgb 65535 0 0
+lineColor index 14
 fill
 fillColor rgb 65535 0 0
+lineWidth 2
 visPv "XSPRESS:SC:FR2:FRAME_RELEASE:STATE"
 visMin "4"
 visMax "5"
