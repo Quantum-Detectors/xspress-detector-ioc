@@ -111,6 +111,21 @@ ERR=$(cat "${T}/err")
 OUT=$(cat "${T}/out" 2>/dev/null)
 check "--colours qd without XDG_RUNTIME_DIR: uses TMPDIR" eval 'qd && [ -d "${T}/tmp-alt/stxspress-gui-$(id -u)/qd" ]'
 
+# XDG_RUNTIME_DIR inherited from another user (su without -): not ours, so
+# fall back to TMPDIR rather than fail.
+mkdir -p "${T}/other-run"
+chmod 500 "${T}/other-run"
+rm -f "${T}/out"
+env -u DISPLAY PATH="${T}/bin:${PATH}" STUB_OUT="${T}/out" \
+    XDG_RUNTIME_DIR="${T}/other-run" TMPDIR="${T}/tmp-alt" XSPRESS_NUM_CARDS=4 \
+    "${T}/stxspress-gui" --colours qd > /dev/null 2> "${T}/err"
+STATUS=$?
+ERR=$(cat "${T}/err")
+OUT=$(cat "${T}/out" 2>/dev/null)
+chmod 700 "${T}/other-run"
+check "--colours qd with an unusable XDG_RUNTIME_DIR: uses TMPDIR" \
+    eval 'qd && grep -q "^EDMFILES=${T}/tmp-alt/" <<< "${OUT}"'
+
 # In a shared directory, a per-user directory planted by someone else (here a
 # symlink to a directory the launcher would otherwise fill) must be refused.
 mkdir -p "${T}/shared" "${T}/elsewhere"
