@@ -21,7 +21,6 @@ file and adds two entries. The main changes:
   MINOR and MAJOR readbacks.
 - 15, 20 and 35, the "On" LED colours, are bright green, red and amber.
 
-`qd/colors.list` is generated, with contrast and colour-vision checks, by
-`build.py` in the QD notes (`edm-colour-schemes/`). Change it there and copy
-the result here rather than editing it by hand. The first line must stay
-`4 0 0`.
+`qd/colors.list` is generated, with contrast and colour-vision checks.
+
+EDM requires that the first line must stay as `4 0 0`.
