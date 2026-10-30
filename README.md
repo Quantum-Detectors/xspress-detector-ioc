@@ -71,6 +71,13 @@ It reads `XSPRESS_NUM_CARDS` from the environment, else from the
 
 `share/applications/qd-xspress-gui.desktop` starts the launcher.
 
+`--colours qd` shows the screens in the Quantum Detectors colour scheme
+(`xspressApp/opi/colours/qd/`) instead of the installed `colors.list`
+(`--colours classic`, the default). The launcher links the scheme's
+`colors.list` and the other installed EDM config files into a per-user
+directory and points `EDMFILES` at it. `xspressApp/opi/edl/test-stxspress-gui.sh`
+tests the options without EPICS.
+
 ### Service control screens
 
 The "Services" button opens `xspress-sc-wiring.edl`, a wiring diagram of the
