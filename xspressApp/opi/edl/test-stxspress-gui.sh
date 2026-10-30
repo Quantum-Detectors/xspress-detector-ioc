@@ -8,6 +8,7 @@
 # The checks are eval'd strings, expanded when they run.
 # shellcheck disable=SC2016,SC2001
 set -u
+unset QD_XSPRESS_EDM_COLOURS  # the caller's setting must not leak in
 
 HERE=$(cd "$(dirname "$0")" && pwd)
 TOP=$(cd "${HERE}/../../.." && pwd)
@@ -110,6 +111,21 @@ STATUS=$?
 ERR=$(cat "${T}/err")
 OUT=$(cat "${T}/out" 2>/dev/null)
 check "--colours qd without XDG_RUNTIME_DIR: uses TMPDIR" eval 'qd && [ -d "${T}/tmp-alt/stxspress-gui-$(id -u)/qd" ]'
+
+# QD_XSPRESS_EDM_COLOURS=true/yes/1 (any case) makes QD the default scheme;
+# --colours still wins.
+for v in true yes 1 TRUE Yes; do
+    QD_XSPRESS_EDM_COLOURS=$v run
+    check "QD_XSPRESS_EDM_COLOURS=$v: QD colours" qd
+done
+for v in false no 0 "" other; do
+    QD_XSPRESS_EDM_COLOURS=$v run
+    check "QD_XSPRESS_EDM_COLOURS='$v': classic colours" classic
+done
+QD_XSPRESS_EDM_COLOURS=true run --colours classic
+check "QD_XSPRESS_EDM_COLOURS=true --colours classic: classic colours" classic
+run --colours classic --colours qd
+check "last --colours wins (classic then qd)" qd
 
 # XDG_RUNTIME_DIR inherited from another user (su without -): not ours, so
 # fall back to TMPDIR rather than fail.

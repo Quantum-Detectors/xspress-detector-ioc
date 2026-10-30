@@ -6,6 +6,9 @@
 #   --colours NAME  colour scheme: classic (the installed colors.list, the
 #                   default) or a directory under xspressApp/opi/colours
 #
+# QD_XSPRESS_EDM_COLOURS=true (or yes, 1) in the environment makes the QD
+# scheme the default instead of classic.
+#
 # The number of cards (XSPRESS_NUM_CARDS) selects the screens that depend on
 # it; it comes from the environment, else from @XSPRESS_IOC_ENV@,
 # else defaults to 4.
@@ -37,7 +40,12 @@ usage() {
 }
 
 EDIT=
+# QD_XSPRESS_EDM_COLOURS=true, yes or 1 (any case) makes the QD scheme the
+# default, e.g. for the desktop entry; --colours overrides it.
 COLOURS=classic
+case $(printf '%s' "${QD_XSPRESS_EDM_COLOURS}" | tr '[:upper:]' '[:lower:]') in
+    true|yes|1) COLOURS=qd ;;
+esac
 while [ $# -gt 0 ]; do
     case $1 in
         -d) EDIT=1 ;;

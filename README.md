@@ -78,6 +78,11 @@ It reads `XSPRESS_NUM_CARDS` from the environment, else from the
 directory and points `EDMFILES` at it. `xspressApp/opi/edl/test-stxspress-gui.sh`
 tests the options without EPICS.
 
+To make the QD scheme the default, including for the desktop entry, set
+`QD_XSPRESS_EDM_COLOURS=true` (or `yes`, `1`) in the environment, e.g. in a
+file under `/etc/profile.d/` for every user. `--colours classic` still
+overrides it.
+
 ### Service control screens
 
 The "Services" button opens `xspress-sc-wiring.edl`, a wiring diagram of the
