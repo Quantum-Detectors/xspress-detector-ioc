@@ -12,6 +12,7 @@ its EDM screens and a GUI launcher.
 | `xspressApp/src/` | The `xspress` IOC executable |
 | `xspressApp/Db/` | `xspress-substitutions.sh`, which makes one database per card count |
 | `xspressApp/opi/edl/` | EDM screens (including the service control screens), the `stxspress-gui` launcher and its desktop entry |
+| `xspressApp/opi/colours/` | EDM colour schemes other than the installed one (`qd`), see its README |
 | `iocBoot/iocxspress/` | Start-up script `stxspress.boot`; `envPaths` is written by make |
 
 ## Build
