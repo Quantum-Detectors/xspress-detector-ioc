@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Connections $(P)$(R)</name>
+  <width>1312</width>
+  <height>764</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>header</name>
+    <class>HEADER_BAR</class>
+    <x>0</x>
+    <y>0</y>
+    <width>1312</width>
+    <height>48</height>
+    <background_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>logo</name>
+    <x>16</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <file>$(theme_root)/header_logo.png</file>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>title</name>
+    <class>TITLE</class>
+    <x>56</x>
+    <y>2</y>
+    <width>400</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Screen_Title" family="Liberation Sans" style="BOLD" size="22.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Connections</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>subtitle</name>
+    <x>56</x>
+    <y>30</y>
+    <width>400</width>
+    <height>16</height>
+    <text>$(P)$(R)</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>accent</name>
+    <class>ACCENT_STRIP</class>
+    <x>0</x>
+    <y>48</y>
+    <width>1312</width>
+    <height>4</height>
+    <background_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Connections_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>68</y>
+    <width>1280</width>
+    <height>680</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Connections_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>76</y>
+    <width>1256</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Connections</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Connections</name>
+    <x>20</x>
+    <y>108</y>
+    <width>1272</width>
+    <height>632</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>head0_0</name>
+      <x>36</x>
+      <y>8</y>
+      <width>328</width>
+      <height>16</height>
+      <text>Connection</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>0</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head0_1</name>
+      <x>372</x>
+      <y>8</y>
+      <width>88</width>
+      <height>16</height>
+      <text>State</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>0</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head0_2</name>
+      <x>468</x>
+      <y>8</y>
+      <width>160</width>
+      <height>16</height>
+      <text>Since</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>0</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="template" version="2.0.0">
+      <name>edges0</name>
+      <x>8</x>
+      <y>24</y>
+      <width>624</width>
+      <height>616</height>
+      <file>xspress_service_edge.bob</file>
+      <gap>4</gap>
+      <instances>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FR1-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FR2-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FR3-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FR4-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FP1-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FP2-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FP3-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-FP4-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP1-FR1-FRAME_READY</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP2-FR2-FRAME_READY</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP3-FR3-FRAME_READY</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP4-FR4-FRAME_READY</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP1-FR1-FRAME_RELEASE</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP2-FR2-FRAME_RELEASE</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP3-FR3-FRAME_RELEASE</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FP4-FR4-FRAME_RELEASE</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:META-FP1-META</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:META-FP2-META</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:META-FP3-META</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:META-FP4-META</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:LVM-FP1-LIVEVIEW</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:LVM-FP2-LIVEVIEW</EL>
+          </macros>
+        </instance>
+      </instances>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head1_0</name>
+      <x>676</x>
+      <y>8</y>
+      <width>328</width>
+      <height>16</height>
+      <text>Connection</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>0</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head1_1</name>
+      <x>1012</x>
+      <y>8</y>
+      <width>88</width>
+      <height>16</height>
+      <text>State</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>0</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head1_2</name>
+      <x>1108</x>
+      <y>8</y>
+      <width>160</width>
+      <height>16</height>
+      <text>Since</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>0</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="template" version="2.0.0">
+      <name>edges1</name>
+      <x>648</x>
+      <y>24</y>
+      <width>624</width>
+      <height>616</height>
+      <file>xspress_service_edge.bob</file>
+      <gap>4</gap>
+      <instances>
+        <instance>
+          <macros>
+            <EL>E:LVM-FP3-LIVEVIEW</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:LVM-FP4-LIVEVIEW</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-XCTRL-CONTROL</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:ODIN-META-META</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:IOC-ODIN-HTTP</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:IOC-LVM-PUB</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD1-P30124</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD2-P30124</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD3-P30124</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD4-P30124</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD1-P30126</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD2-P30126</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD3-P30126</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD4-P30126</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD1-P30127</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD2-P30127</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD3-P30127</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:XCTRL-CARD4-P30127</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FR1-XCTRL-DAQ1</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FR2-XCTRL-DAQ2</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FR3-XCTRL-DAQ3</EL>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <EL>E:FR4-XCTRL-DAQ4</EL>
+          </macros>
+        </instance>
+      </instances>
+    </widget>
+  </widget>
+</display>

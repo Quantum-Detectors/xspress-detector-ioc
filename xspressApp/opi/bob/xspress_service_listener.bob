@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>$(NAME)</name>
+  <width>712</width>
+  <height>24</height>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>led</name>
+    <x>0</x>
+    <y>2</y>
+    <width>20</width>
+    <height>20</height>
+    <pv_name>$(P)$(R)$(EL):STATE</pv_name>
+    <square>false</square>
+    <states>
+      <state>
+        <value>0</value>
+        <label/>
+        <color>
+          <color name="Off" red="245" green="245" blue="245"/>
+        </color>
+      </state>
+      <state>
+        <value>1</value>
+        <label/>
+        <color>
+          <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+        </color>
+      </state>
+      <state>
+        <value>2</value>
+        <label/>
+        <color>
+          <color name="LED_Amber_On" red="255" green="228" blue="125"/>
+        </color>
+      </state>
+      <state>
+        <value>3</value>
+        <label/>
+        <color>
+          <color name="LED_Green_On" red="60" green="249" blue="89"/>
+        </color>
+      </state>
+      <state>
+        <value>4</value>
+        <label/>
+        <color>
+          <color name="LED_Red_On" red="255" green="37" blue="36"/>
+        </color>
+      </state>
+    </states>
+    <fallback_label/>
+    <fallback_color>
+      <color name="Off" red="245" green="245" blue="245"/>
+    </fallback_color>
+    <line_color>
+      <color name="Equipment_Border" red="90" green="90" blue="90"/>
+    </line_color>
+    <font>
+      <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color>
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>name</name>
+    <class>LABEL</class>
+    <x>28</x>
+    <y>0</y>
+    <width>140</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text_Muted" red="75" green="75" blue="75"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>$(NAME)</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>state</name>
+    <class>VALUE</class>
+    <x>176</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)$(EL):STATE</pv_name>
+    <horizontal_alignment>0</horizontal_alignment>
+    <format>6</format>
+    <wrap_words>false</wrap_words>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>desc</name>
+    <class>VALUE</class>
+    <x>272</x>
+    <y>0</y>
+    <width>216</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)$(EL):DESC</pv_name>
+    <tooltip>$(pv_value)</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <format>6</format>
+    <wrap_words>false</wrap_words>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>detail</name>
+    <class>VALUE</class>
+    <x>496</x>
+    <y>0</y>
+    <width>216</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)$(EL):DETAIL</pv_name>
+    <tooltip>Since $(P)$(R)$(EL):SINCE: $(pv_value)</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <format>6</format>
+    <wrap_words>false</wrap_words>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

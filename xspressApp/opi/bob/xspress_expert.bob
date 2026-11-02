@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Expert</name>
+  <width>952</width>
+  <height>868</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>Settings files_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>16</y>
+    <width>920</width>
+    <height>176</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Settings files_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>24</y>
+    <width>896</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Settings files</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Settings files</name>
+    <x>20</x>
+    <y>56</y>
+    <width>912</width>
+    <height>128</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>config_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>0</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Configuration path</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>config_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>0</y>
+      <width>560</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)CONFIG_PATH</pv_name>
+      <format>6</format>
+      <horizontal_alignment>0</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>config_rbv</name>
+      <class>VALUE</class>
+      <x>168</x>
+      <y>32</y>
+      <width>560</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)CONFIG_PATH_RBV</pv_name>
+      <format>6</format>
+      <horizontal_alignment>0</horizontal_alignment>
+      <wrap_words>false</wrap_words>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>config_button</name>
+      <class>BUTTON</class>
+      <x>744</x>
+      <y>0</y>
+      <width>128</width>
+      <height>56</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Restore</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)RESTORE_SETTINGS</pv_name>
+          <value>1</value>
+          <description>Restore</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Restore the settings from the configuration path?</confirm_message>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>save_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>72</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Save path</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>save_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>72</y>
+      <width>560</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)CONFIG_SAVE_PATH</pv_name>
+      <format>6</format>
+      <horizontal_alignment>0</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>save_rbv</name>
+      <class>VALUE</class>
+      <x>168</x>
+      <y>104</y>
+      <width>560</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)CONFIG_SAVE_PATH_RBV</pv_name>
+      <format>6</format>
+      <horizontal_alignment>0</horizontal_alignment>
+      <wrap_words>false</wrap_words>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>save_button</name>
+      <class>BUTTON</class>
+      <x>744</x>
+      <y>72</y>
+      <width>128</width>
+      <height>56</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Save</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)SAVE_SETTINGS</pv_name>
+          <value>1</value>
+          <description>Save</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Save the current settings to the save path?</confirm_message>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Detector configuration_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>208</y>
+    <width>452</width>
+    <height>248</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Detector configuration_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>216</y>
+    <width>428</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Detector configuration</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Detector configuration</name>
+    <x>20</x>
+    <y>248</y>
+    <width>444</width>
+    <height>200</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>sp_head</name>
+      <x>168</x>
+      <y>0</y>
+      <width>128</width>
+      <height>16</height>
+      <text>Setpoint</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>rbv_head</name>
+      <x>304</x>
+      <y>0</y>
+      <width>128</width>
+      <height>16</height>
+      <text>Read-back</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>base_ip_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>16</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Base IP</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>base_ip_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>16</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)BASE_IP</pv_name>
+      <format>6</format>
+      <horizontal_alignment>0</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>base_ip_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>16</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)BASE_IP_RBV</pv_name>
+      <format>6</format>
+      <horizontal_alignment>0</horizontal_alignment>
+      <wrap_words>false</wrap_words>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>lib_debug_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>48</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>LibXspress debug (0–2)</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>lib_debug_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>48</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)LIB_XSP_DEBUG</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>lib_debug_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>48</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)LIB_XSP_DEBUG_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>beam_energy_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>80</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Beam energy (DTC)</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>beam_energy_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>80</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)DTC_ENERGY</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>beam_energy_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>80</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)DTC_ENERGY_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>invert_f0_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>112</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Invert F0</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>invert_f0_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>112</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)INVERT_F0</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>invert_f0_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>112</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)INVERT_F0_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>invert_veto_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>144</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Invert VETO</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>invert_veto_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>144</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)INVERT_VETO</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>invert_veto_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>144</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)INVERT_VETO_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>run_flags_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>176</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Run flags (number)</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>run_flags_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>176</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)RUN_FLAGS</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>run_flags_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>176</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)RUN_FLAGS_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Xspress_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>472</y>
+    <width>452</width>
+    <height>104</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Xspress_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>480</y>
+    <width>428</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Xspress</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Xspress</name>
+    <x>20</x>
+    <y>512</y>
+    <width>444</width>
+    <height>56</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="action_button" version="3.0.0">
+      <name>connect</name>
+      <class>BUTTON</class>
+      <x>8</x>
+      <y>0</y>
+      <width>136</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Connect</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)CONNECT</pv_name>
+          <value>1</value>
+          <description>Connect</description>
+        </action>
+      </actions>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>disconnect</name>
+      <class>BUTTON</class>
+      <x>152</x>
+      <y>0</y>
+      <width>136</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Disconnect</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)DISCONNECT</pv_name>
+          <value>1</value>
+          <description>Disconnect</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Disconnect from the Xspress system?</confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>trigger</name>
+      <class>BUTTON</class>
+      <x>296</x>
+      <y>0</y>
+      <width>136</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Trigger</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)TRIGGER</pv_name>
+          <value>1</value>
+          <description>Trigger</description>
+        </action>
+      </actions>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Control application_panel</name>
+    <class>PANEL</class>
+    <x>484</x>
+    <y>208</y>
+    <width>452</width>
+    <height>248</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Control application_title</name>
+    <class>SECTION</class>
+    <x>496</x>
+    <y>216</y>
+    <width>428</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Control application</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Control application</name>
+    <x>488</x>
+    <y>248</y>
+    <width>444</width>
+    <height>200</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>app_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>0</y>
+      <width>240</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Connected</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>app_connected</name>
+      <class>LED_GREEN</class>
+      <x>304</x>
+      <y>0</y>
+      <width>24</width>
+      <height>24</height>
+      <on_color use_class="true">
+        <color name="LED_Green_On" red="60" green="249" blue="89"/>
+      </on_color>
+      <off_color use_class="true">
+        <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+      </off_color>
+      <pv_name>$(P)$(R)APP_CONNECTED_RBV</pv_name>
+      <line_color>
+        <color name="Equipment_Border" red="90" green="90" blue="90"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>app_debug_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>32</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Debug level (0–5)</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>app_debug_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>32</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)APP_DEBUG</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>app_debug_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>32</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)APP_DEBUG_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>endpoint_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>64</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Control endpoint</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>endpoint</name>
+      <class>VALUE</class>
+      <x>168</x>
+      <y>64</y>
+      <width>264</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)APP_ENDPOINT_RBV</pv_name>
+      <horizontal_alignment>0</horizontal_alignment>
+      <format>6</format>
+      <wrap_words>false</wrap_words>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>reset_config</name>
+      <class>BUTTON</class>
+      <x>8</x>
+      <y>104</y>
+      <width>136</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Reset config</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)RESET</pv_name>
+          <value>1</value>
+          <description>Reset config</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Reset the control application's configuration?</confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>request_config</name>
+      <class>BUTTON</class>
+      <x>152</x>
+      <y>104</y>
+      <width>136</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Request config</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)REQUEST_CONFIG</pv_name>
+          <value>1</value>
+          <description>Request config</description>
+        </action>
+      </actions>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>shutdown</name>
+      <class>BUTTON</class>
+      <x>296</x>
+      <y>104</y>
+      <width>136</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Shutdown</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)APP_SHUTDOWN</pv_name>
+          <value>1</value>
+          <description>Shutdown</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Shut down the Xspress control application?</confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>start_loop</name>
+      <class>BUTTON</class>
+      <x>8</x>
+      <y>152</y>
+      <width>212</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Start update loop</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)UPDATE_LOOP</pv_name>
+          <value>1</value>
+          <description>Start update loop</description>
+        </action>
+      </actions>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>stop_loop</name>
+      <class>BUTTON</class>
+      <x>228</x>
+      <y>152</y>
+      <width>204</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Stop update loop</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)UPDATE_LOOP</pv_name>
+          <value>0</value>
+          <description>Stop update loop</description>
+        </action>
+      </actions>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>IOC_panel</name>
+    <class>PANEL</class>
+    <x>484</x>
+    <y>472</y>
+    <width>452</width>
+    <height>136</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>IOC_title</name>
+    <class>SECTION</class>
+    <x>496</x>
+    <y>480</y>
+    <width>428</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>IOC</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>IOC</name>
+    <x>488</x>
+    <y>512</y>
+    <width>444</width>
+    <height>88</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>det_scan_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>0</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Detector scan rate</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>det_scan</name>
+      <x>168</x>
+      <y>0</y>
+      <width>128</width>
+      <height>24</height>
+      <pv_name>$(P)$(R)ReadStatus.SCAN</pv_name>
+      <items_from_pv>true</items_from_pv>
+      <font>
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color>
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>odin_scan_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>32</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Odin scan rate</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="combo" version="2.0.0">
+      <name>odin_scan</name>
+      <x>168</x>
+      <y>32</y>
+      <width>128</width>
+      <height>24</height>
+      <pv_name>$(P):OD:ReadStatus.SCAN</pv_name>
+      <items_from_pv>true</items_from_pv>
+      <font>
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color>
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>scan_time_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>64</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Adapter scan (s)</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>scan_time_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>64</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)SCAN_TIME</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>scan_time_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>64</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)SCAN_TIME_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>

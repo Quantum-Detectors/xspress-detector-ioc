@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Listeners</name>
+  <width>712</width>
+  <height>84</height>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="template" version="2.0.0">
+    <name>listeners</name>
+    <x>0</x>
+    <y>0</y>
+    <width>712</width>
+    <height>84</height>
+    <file>xspress_service_listener.bob</file>
+    <gap>4</gap>
+    <instances>
+      <instance>
+        <macros>
+          <EL>$(SVC):CONTROL</EL>
+          <NAME>control</NAME>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <EL>$(SVC):META</EL>
+          <NAME>meta</NAME>
+        </macros>
+      </instance>
+      <instance>
+        <macros>
+          <EL>$(SVC):LIVEVIEW</EL>
+          <NAME>liveview</NAME>
+        </macros>
+      </instance>
+    </instances>
+  </widget>
+</display>

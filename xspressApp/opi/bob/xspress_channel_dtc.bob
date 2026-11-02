@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Channel $(CHAN)</name>
+  <width>860</width>
+  <height>24</height>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="label" version="2.0.0">
+    <name>chan</name>
+    <x>0</x>
+    <y>0</y>
+    <width>24</width>
+    <height>24</height>
+    <text>$(CHAN)</text>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color>
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent>true</transparent>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_flags_rbv</name>
+    <class>VALUE</class>
+    <x>32</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_FLAGS_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_aeg_rbv</name>
+    <class>VALUE</class>
+    <x>124</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_AEG_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_aeo_rbv</name>
+    <class>VALUE</class>
+    <x>216</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_AEO_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_aerg_rbv</name>
+    <class>VALUE</class>
+    <x>308</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_AERG_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_aero_rbv</name>
+    <class>VALUE</class>
+    <x>400</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_AERO_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_iwg_rbv</name>
+    <class>VALUE</class>
+    <x>492</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_IWG_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_iwo_rbv</name>
+    <class>VALUE</class>
+    <x>584</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_IWO_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_iwrg_rbv</name>
+    <class>VALUE</class>
+    <x>676</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_IWRG_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>dtc_iwro_rbv</name>
+    <class>VALUE</class>
+    <x>768</x>
+    <y>0</y>
+    <width>88</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_DTC_IWRO_RBV</pv_name>
+    <format>2</format>
+    <precision>4</precision>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>

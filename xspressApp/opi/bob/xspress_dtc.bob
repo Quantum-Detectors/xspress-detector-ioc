@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>DTC</name>
+  <width>952</width>
+  <height>868</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>Dead-time correction parameters_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>16</y>
+    <width>876</width>
+    <height>304</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Dead-time correction parameters_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>24</y>
+    <width>852</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Dead-time correction parameters</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Dead-time correction parameters</name>
+    <x>20</x>
+    <y>56</y>
+    <width>868</width>
+    <height>256</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>chan_head</name>
+      <x>8</x>
+      <y>16</y>
+      <width>24</width>
+      <height>16</height>
+      <text>Ch</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head0</name>
+      <x>40</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>Flags</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head1</name>
+      <x>132</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>All event grad</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head2</name>
+      <x>224</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>All event off</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head3</name>
+      <x>316</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>All event rate grad</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head4</name>
+      <x>408</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>All event rate off</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head5</name>
+      <x>500</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>In win grad</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head6</name>
+      <x>592</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>In win off</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head7</name>
+      <x>684</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>In win rate grad</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head8</name>
+      <x>776</x>
+      <y>16</y>
+      <width>88</width>
+      <height>16</height>
+      <text>In win rate off</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="template" version="2.0.0">
+      <name>rows</name>
+      <x>8</x>
+      <y>32</y>
+      <width>860</width>
+      <height>224</height>
+      <file>xspress_channel_dtc.bob</file>
+      <gap>4</gap>
+      <instances>
+        <instance>
+          <macros>
+            <CHAN>1</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>2</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>3</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>4</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>5</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>6</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>7</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>8</CHAN>
+          </macros>
+        </instance>
+      </instances>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Correction_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>336</y>
+    <width>452</width>
+    <height>88</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Correction_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>344</y>
+    <width>428</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Correction</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Correction</name>
+    <x>20</x>
+    <y>376</y>
+    <width>444</width>
+    <height>40</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>sp_head</name>
+      <x>168</x>
+      <y>0</y>
+      <width>128</width>
+      <height>16</height>
+      <text>Setpoint</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>rbv_head</name>
+      <x>304</x>
+      <y>0</y>
+      <width>128</width>
+      <height>16</height>
+      <text>Read-back</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>beam_energy_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>16</y>
+      <width>152</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Beam energy</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>beam_energy_sp</name>
+      <class>SETPOINT</class>
+      <x>168</x>
+      <y>16</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)DTC_ENERGY</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>beam_energy_rbv</name>
+      <class>VALUE</class>
+      <x>304</x>
+      <y>16</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)DTC_ENERGY_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>

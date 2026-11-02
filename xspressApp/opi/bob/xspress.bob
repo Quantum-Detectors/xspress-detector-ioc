@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Xspress $(P)</name>
+  <width>952</width>
+  <height>960</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>header</name>
+    <class>HEADER_BAR</class>
+    <x>0</x>
+    <y>0</y>
+    <width>952</width>
+    <height>48</height>
+    <background_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>logo</name>
+    <x>16</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <file>$(theme_root)/header_logo.png</file>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>title</name>
+    <class>TITLE</class>
+    <x>56</x>
+    <y>2</y>
+    <width>400</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Screen_Title" family="Liberation Sans" style="BOLD" size="22.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Xspress Detector</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>subtitle</name>
+    <x>56</x>
+    <y>30</y>
+    <width>400</width>
+    <height>16</height>
+    <text>$(P)</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>nav_3</name>
+    <class>NAV_BUTTON</class>
+    <x>816</x>
+    <y>8</y>
+    <width>112</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Nav_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <text>Services</text>
+    <actions>
+      <action type="open_display">
+        <file>xspress_services.bob</file>
+        <macros>
+          <R>:SC:</R>
+        </macros>
+        <target>window</target>
+        <description>Services</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>nav_2</name>
+    <class>NAV_BUTTON</class>
+    <x>696</x>
+    <y>8</y>
+    <width>112</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Nav_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <text>Live view</text>
+    <actions>
+      <action type="open_display">
+        <file>xspress_liveview.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <target>window</target>
+        <description>Live view</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>nav_1</name>
+    <class>NAV_BUTTON</class>
+    <x>576</x>
+    <y>8</y>
+    <width>112</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Nav_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <text>MCA spectra</text>
+    <actions>
+      <action type="open_display">
+        <file>xspress_mca.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <target>window</target>
+        <description>MCA spectra</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>accent</name>
+    <class>ACCENT_STRIP</class>
+    <x>0</x>
+    <y>48</y>
+    <width>952</width>
+    <height>4</height>
+    <background_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="multi_state_led" version="2.0.0">
+    <name>sc_state_led</name>
+    <x>456</x>
+    <y>14</y>
+    <width>20</width>
+    <height>20</height>
+    <pv_name>$(P):SC:STATE</pv_name>
+    <square>false</square>
+    <states>
+      <state>
+        <value>0</value>
+        <label/>
+        <color>
+          <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+        </color>
+      </state>
+      <state>
+        <value>1</value>
+        <label/>
+        <color>
+          <color name="LED_Amber_On" red="255" green="228" blue="125"/>
+        </color>
+      </state>
+      <state>
+        <value>2</value>
+        <label/>
+        <color>
+          <color name="LED_Amber_On" red="255" green="228" blue="125"/>
+        </color>
+      </state>
+      <state>
+        <value>3</value>
+        <label/>
+        <color>
+          <color name="LED_Green_On" red="60" green="249" blue="89"/>
+        </color>
+      </state>
+      <state>
+        <value>4</value>
+        <label/>
+        <color>
+          <color name="LED_Red_On" red="255" green="37" blue="36"/>
+        </color>
+      </state>
+    </states>
+    <fallback_label/>
+    <fallback_color>
+      <color name="Off" red="245" green="245" blue="245"/>
+    </fallback_color>
+    <line_color>
+      <color name="Equipment_Border" red="90" green="90" blue="90"/>
+    </line_color>
+    <font>
+      <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color>
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sc_state</name>
+    <x>484</x>
+    <y>14</y>
+    <width>80</width>
+    <height>20</height>
+    <pv_name>$(P):SC:STATE</pv_name>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+    <vertical_alignment>1</vertical_alignment>
+    <tooltip>Service control: $(pv_name) $(pv_value)</tooltip>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>nav_bar</name>
+    <x>0</x>
+    <y>52</y>
+    <width>952</width>
+    <height>40</height>
+    <background_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <line_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </line_color>
+    <line_width>0</line_width>
+  </widget>
+  <widget type="navtabs" version="2.0.0">
+    <name>tabs</name>
+    <class>NAV_TABS</class>
+    <x>0</x>
+    <y>52</y>
+    <width>952</width>
+    <height>908</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <selected_color use_class="true">
+      <color name="Nav_Selected" red="0" green="122" blue="191"/>
+    </selected_color>
+    <deselected_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </deselected_color>
+    <direction>0</direction>
+    <tab_width>128</tab_width>
+    <tab_height>40</tab_height>
+    <tab_spacing>0</tab_spacing>
+    <tabs>
+      <tab>
+        <name>Detector</name>
+        <file>xspress_detector.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <group_name/>
+      </tab>
+      <tab>
+        <name>Channels</name>
+        <file>xspress_channels.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <group_name/>
+      </tab>
+      <tab>
+        <name>DTC</name>
+        <file>xspress_dtc.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <group_name/>
+      </tab>
+      <tab>
+        <name>Status</name>
+        <file>xspress_status.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <group_name/>
+      </tab>
+      <tab>
+        <name>Data</name>
+        <file>xspress_data.bob</file>
+        <macros>
+          <R>:OD:</R>
+        </macros>
+        <group_name/>
+      </tab>
+      <tab>
+        <name>Expert</name>
+        <file>xspress_expert.bob</file>
+        <macros>
+          <R>:CAM:</R>
+        </macros>
+        <group_name/>
+      </tab>
+    </tabs>
+  </widget>
+</display>

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Live view $(P)$(R)</name>
+  <width>800</width>
+  <height>600</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>header</name>
+    <class>HEADER_BAR</class>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>48</height>
+    <background_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>logo</name>
+    <x>16</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <file>$(theme_root)/header_logo.png</file>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>title</name>
+    <class>TITLE</class>
+    <x>56</x>
+    <y>2</y>
+    <width>400</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Screen_Title" family="Liberation Sans" style="BOLD" size="22.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Live view</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>subtitle</name>
+    <x>56</x>
+    <y>30</y>
+    <width>400</width>
+    <height>16</height>
+    <text>$(P)$(R)</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>accent</name>
+    <class>ACCENT_STRIP</class>
+    <x>0</x>
+    <y>48</y>
+    <width>800</width>
+    <height>4</height>
+    <background_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="xyplot" version="3.0.0">
+    <name>live_mca</name>
+    <x>16</x>
+    <y>68</y>
+    <width>768</width>
+    <height>436</height>
+    <title>Live spectrum</title>
+    <title_font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </title_font>
+    <foreground_color>
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color>
+      <color name="Write_Background" red="255" green="255" blue="255"/>
+    </background_color>
+    <show_toolbar>false</show_toolbar>
+    <show_legend>false</show_legend>
+    <x_axis>
+      <title>Bin</title>
+      <autoscale>true</autoscale>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <maximum>4096.0</maximum>
+      <show_grid>true</show_grid>
+      <title_font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </title_font>
+      <scale_font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </scale_font>
+      <visible>true</visible>
+    </x_axis>
+    <y_axes>
+      <y_axis>
+        <title/>
+        <autoscale>true</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>4096.0</maximum>
+        <show_grid>true</show_grid>
+        <title_font>
+          <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+        </title_font>
+        <scale_font>
+          <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+        </scale_font>
+        <on_right>false</on_right>
+        <visible>true</visible>
+        <color>
+          <color name="Text" red="25" green="25" blue="25"/>
+        </color>
+      </y_axis>
+    </y_axes>
+    <traces>
+      <trace>
+        <name>Counts</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)LiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Attention" red="0" green="110" blue="200"/>
+        </color>
+        <line_width>1</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+    </traces>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Selection_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>512</y>
+    <width>768</width>
+    <height>72</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Selection_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>520</y>
+    <width>744</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Selection</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Selection</name>
+    <x>20</x>
+    <y>552</y>
+    <width>760</width>
+    <height>24</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>chan_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>0</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Channel index</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>chan</name>
+      <class>SETPOINT</class>
+      <x>136</x>
+      <y>0</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)LiveIndexChannel</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>chan_rbv</name>
+      <class>VALUE</class>
+      <x>240</x>
+      <y>0</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)LiveIndexChannel_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>res_label</name>
+      <class>LABEL</class>
+      <x>384</x>
+      <y>0</y>
+      <width>128</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Resgrade index</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textentry" version="3.0.0">
+      <name>res</name>
+      <class>SETPOINT</class>
+      <x>512</x>
+      <y>0</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Write_Background" red="255" green="255" blue="255"/>
+      </background_color>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)LiveIndexResgrade</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>res_rbv</name>
+      <class>VALUE</class>
+      <x>616</x>
+      <y>0</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)LiveIndexResgrade_RBV</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+  </widget>
+</display>

@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Channels</name>
+  <width>952</width>
+  <height>868</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>Windows_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>16</y>
+    <width>888</width>
+    <height>304</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Windows_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>24</y>
+    <width>864</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Windows</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Windows</name>
+    <x>20</x>
+    <y>56</y>
+    <width>880</width>
+    <height>256</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>grp0</name>
+      <x>40</x>
+      <y>0</y>
+      <width>416</width>
+      <height>16</height>
+      <text>Window 1</text>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>grp0_line</name>
+      <x>40</x>
+      <y>16</y>
+      <width>416</width>
+      <height>2</height>
+      <points>
+        <point x="0.0" y="1.0"/>
+        <point x="416.0" y="1.0"/>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Divider" red="174" green="181" blue="188"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>grp1</name>
+      <x>460</x>
+      <y>0</y>
+      <width>416</width>
+      <height>16</height>
+      <text>Window 2</text>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>grp1_line</name>
+      <x>460</x>
+      <y>16</y>
+      <width>416</width>
+      <height>2</height>
+      <points>
+        <point x="0.0" y="1.0"/>
+        <point x="416.0" y="1.0"/>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Divider" red="174" green="181" blue="188"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>chan_head</name>
+      <x>8</x>
+      <y>16</y>
+      <width>24</width>
+      <height>16</height>
+      <text>Ch</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head0</name>
+      <x>40</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>Counts</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head1</name>
+      <x>124</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>Low</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head2</name>
+      <x>208</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>Low RBV</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head3</name>
+      <x>292</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>High</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head4</name>
+      <x>376</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>High RBV</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head5</name>
+      <x>460</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>Counts</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head6</name>
+      <x>544</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>Low</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head7</name>
+      <x>628</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>Low RBV</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head8</name>
+      <x>712</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>High</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head9</name>
+      <x>796</x>
+      <y>16</y>
+      <width>80</width>
+      <height>16</height>
+      <text>High RBV</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="template" version="2.0.0">
+      <name>rows</name>
+      <x>8</x>
+      <y>32</y>
+      <width>872</width>
+      <height>224</height>
+      <file>xspress_channel_windows.bob</file>
+      <gap>4</gap>
+      <instances>
+        <instance>
+          <macros>
+            <CHAN>1</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>2</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>3</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>4</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>5</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>6</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>7</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>8</CHAN>
+          </macros>
+        </instance>
+      </instances>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Counts and timing_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>336</y>
+    <width>864</width>
+    <height>304</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Counts and timing_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>344</y>
+    <width>840</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Counts and timing</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Counts and timing</name>
+    <x>20</x>
+    <y>376</y>
+    <width>856</width>
+    <height>256</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>grp0</name>
+      <x>40</x>
+      <y>0</y>
+      <width>540</width>
+      <height>16</height>
+      <text>Counts</text>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>grp0_line</name>
+      <x>40</x>
+      <y>16</y>
+      <width>540</width>
+      <height>2</height>
+      <points>
+        <point x="0.0" y="1.0"/>
+        <point x="540.0" y="1.0"/>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Divider" red="174" green="181" blue="188"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>grp1</name>
+      <x>584</x>
+      <y>0</y>
+      <width>268</width>
+      <height>16</height>
+      <text>Time</text>
+      <font>
+        <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>1</horizontal_alignment>
+    </widget>
+    <widget type="polyline" version="2.0.0">
+      <name>grp1_line</name>
+      <x>584</x>
+      <y>16</y>
+      <width>268</width>
+      <height>2</height>
+      <points>
+        <point x="0.0" y="1.0"/>
+        <point x="268.0" y="1.0"/>
+      </points>
+      <line_width>1</line_width>
+      <line_color>
+        <color name="Divider" red="174" green="181" blue="188"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>chan_head</name>
+      <x>8</x>
+      <y>16</y>
+      <width>24</width>
+      <height>16</height>
+      <text>Ch</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head0</name>
+      <x>40</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>All counts</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head1</name>
+      <x>108</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Good counts</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head2</name>
+      <x>176</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Threshold</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head3</name>
+      <x>244</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Thr. RBV</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head4</name>
+      <x>312</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Pileup</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head5</name>
+      <x>380</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>DTC factor</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head6</name>
+      <x>448</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Input est.</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head7</name>
+      <x>516</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Frames</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head8</name>
+      <x>584</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Time</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head9</name>
+      <x>652</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Total time</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head10</name>
+      <x>720</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Reset ticks</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>head11</name>
+      <x>788</x>
+      <y>16</y>
+      <width>64</width>
+      <height>16</height>
+      <text>Resets</text>
+      <font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent>true</transparent>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>2</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+    <widget type="template" version="2.0.0">
+      <name>rows</name>
+      <x>8</x>
+      <y>32</y>
+      <width>848</width>
+      <height>224</height>
+      <file>xspress_channel_counts.bob</file>
+      <gap>4</gap>
+      <instances>
+        <instance>
+          <macros>
+            <CHAN>1</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>2</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>3</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>4</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>5</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>6</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>7</CHAN>
+          </macros>
+        </instance>
+        <instance>
+          <macros>
+            <CHAN>8</CHAN>
+          </macros>
+        </instance>
+      </instances>
+    </widget>
+  </widget>
+</display>

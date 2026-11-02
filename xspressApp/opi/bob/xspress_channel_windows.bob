@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Channel $(CHAN)</name>
+  <width>872</width>
+  <height>24</height>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="label" version="2.0.0">
+    <name>chan</name>
+    <x>0</x>
+    <y>0</y>
+    <width>24</width>
+    <height>24</height>
+    <text>$(CHAN)</text>
+    <font>
+      <font name="Default Bold" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color>
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent>true</transparent>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sca5</name>
+    <class>VALUE</class>
+    <x>32</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA5:Value_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>sca5_llm</name>
+    <class>SETPOINT</class>
+    <x>116</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Write_Background" red="255" green="255" blue="255"/>
+    </background_color>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA5_LLM</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sca5_llm_rbv</name>
+    <class>VALUE</class>
+    <x>200</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA5_LLM_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>sca5_hlm</name>
+    <class>SETPOINT</class>
+    <x>284</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Write_Background" red="255" green="255" blue="255"/>
+    </background_color>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA5_HLM</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sca5_hlm_rbv</name>
+    <class>VALUE</class>
+    <x>368</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA5_HLM_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sca6</name>
+    <class>VALUE</class>
+    <x>452</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA6:Value_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>sca6_llm</name>
+    <class>SETPOINT</class>
+    <x>536</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Write_Background" red="255" green="255" blue="255"/>
+    </background_color>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA6_LLM</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sca6_llm_rbv</name>
+    <class>VALUE</class>
+    <x>620</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA6_LLM_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="textentry" version="3.0.0">
+    <name>sca6_hlm</name>
+    <class>SETPOINT</class>
+    <x>704</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Write_Background" red="255" green="255" blue="255"/>
+    </background_color>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA6_HLM</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+  </widget>
+  <widget type="textupdate" version="2.0.0">
+    <name>sca6_hlm_rbv</name>
+    <class>VALUE</class>
+    <x>788</x>
+    <y>0</y>
+    <width>80</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Read_Background" red="225" green="229" blue="232"/>
+    </background_color>
+    <transparent use_class="true">false</transparent>
+    <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+    <pv_name>$(P)$(R)C$(CHAN)_SCA6_HLM_RBV</pv_name>
+    <horizontal_alignment>2</horizontal_alignment>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+</display>
