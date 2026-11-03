@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>$(DESC) $(P)$(R)$(SVC)</name>
+  <name>$(DESC)</name>
   <width>760</width>
   <height>860</height>
   <background_color>

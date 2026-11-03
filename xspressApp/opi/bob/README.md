@@ -18,9 +18,14 @@ phoebus -resource "file:/opt/QD/epics/ioc/xspress/xspressApp/opi/bob/xspress_ser
 ```
 
 The main window's header buttons open the MCA spectra, live view and
-services windows on their own, so they can sit beside the detector window.
-The MCA window shows one plot per channel or all channels on one plot;
+services screens in new tabs of the Phoebus window.
+The MCA tab shows one plot per channel or all channels on one plot;
 its Overlay / Per channel button switches between the two.
+The MCA and live view screens are 800 px wide; the pop-out button at the
+right of their header (`pop_out.svg`) opens a 1600 × 896 copy of the same
+screen, the `_large.bob` file, in a new window.
+The services tab is the same: it shows only the stack overview and controls,
+and its pop-out button opens the full wiring diagram.
 
 ## Screens
 
@@ -34,11 +39,13 @@ its Overlay / Per channel button switches between the two.
 | `xspress_data.bob` | Tab: OdinData driver, HDF5 writer, array plugin, meta writer, live view, Blosc (EDM `XspressDAQMain`, `LiveViewPlugin`, `BloscPlugin`, ARR) | `P`, `R=:OD:` |
 | `xspress_expert.bob` | Tab: settings files, detector configuration, Xspress and control application commands, IOC scan rates (EDM `XspressAll`) | `P`, `R=:CAM:` |
 | `xspress_hdf5_advanced.bob` | Window: HDF5 dataset and file settings (EDM `OdinDataHDF5Advanced`) | `P`, `R=:OD:` |
-| `xspress_mca.bob` | Window: MCA spectrum of each channel (EDM `Xspress8ChanMCA`) | `P`, `R=:CAM:` |
-| `xspress_mca_overlay.bob` | Window: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
-| `xspress_liveview.bob` | Window: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
-| `xspress_services.bob` | Window: wiring diagram of the services, their connections and the stack state (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
-| `xspress_service_edges.bob` | Window: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
+| `xspress_mca.bob` | Tab: MCA spectrum of each channel (EDM `Xspress8ChanMCA`) | `P`, `R=:CAM:` |
+| `xspress_mca_overlay.bob` | Tab: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
+| `xspress_liveview.bob` | Tab: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
+| `xspress_mca_large.bob`, `xspress_mca_overlay_large.bob`, `xspress_liveview_large.bob` | Window: 1600 × 896 copies of the three screens above, opened by their pop-out button; their header buttons open the other large screens | `P`, `R=:CAM:` |
+| `xspress_services.bob` | Tab: the stack's state, faults and Start / Stop / Restart controls, and its fault message; the pop-out button opens `xspress_services_large.bob` in a new window | `P`, `R=:SC:` |
+| `xspress_services_large.bob` | Window: wiring diagram of the services, their connections and the stack state, with the fault message, events and a legend (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
+| `xspress_service_edges.bob` | Tab: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
 | `xspress_service.bob` | Window: one service's unit, state, controls, listeners and journal (EDM `xspress-sc-<service>`) | `P`, `R`, `SVC` (e.g. `FR1`), `DESC`, `LISTENERS` (`fr`, `fp`, `xctrl`, `meta`, `lvm`, `odin`, `ioc`) |
 
 Components embedded by the screens above:
@@ -48,7 +55,7 @@ Components embedded by the screens above:
 | `xspress_channel_windows.bob`, `xspress_channel_counts.bob`, `xspress_channel_dtc.bob` | channel tables, one row per channel | `P`, `R`, `CHAN` |
 | `xspress_fem.bob` | status tab, one row per card | `P`, `R`, `CARD` (0–3) |
 | `xspress_odin_data.bob` | status tab, one row per OdinData process | `P`, `RANK` (1–4) |
-| `xspress_service_block.bob` | wiring diagram, one block per service | `P`, `R`, `SVC`, `DESC`, `LISTENERS` |
+| `xspress_service_block.bob` | wiring diagram (`xspress_services_large.bob`), one block per service | `P`, `R`, `SVC`, `DESC`, `LISTENERS` |
 | `xspress_service_listeners_<family>.bob`, `xspress_service_listener.bob` | service window, its listeners | `P`, `R`, `SVC` / `EL`, `NAME` |
 | `xspress_service_edge.bob` | connections window, one row per connection | `P`, `R`, `EL` |
 

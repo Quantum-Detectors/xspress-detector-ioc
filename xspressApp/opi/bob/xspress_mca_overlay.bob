@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>MCA $(P)$(R)</name>
-  <width>1600</width>
-  <height>960</height>
+  <name>MCA</name>
+  <width>800</width>
+  <height>472</height>
   <background_color>
     <color name="Background" red="210" green="215" blue="220"/>
   </background_color>
@@ -13,7 +13,7 @@
     <class>HEADER_BAR</class>
     <x>0</x>
     <y>0</y>
-    <width>1600</width>
+    <width>800</width>
     <height>48</height>
     <background_color use_class="true">
       <color name="Header_Background" red="5" green="57" blue="93"/>
@@ -66,7 +66,7 @@
   <widget type="action_button" version="3.0.0">
     <name>nav_2</name>
     <class>NAV_BUTTON</class>
-    <x>1464</x>
+    <x>632</x>
     <y>8</y>
     <width>112</width>
     <height>32</height>
@@ -91,7 +91,7 @@
   <widget type="action_button" version="3.0.0">
     <name>nav_1</name>
     <class>NAV_BUTTON</class>
-    <x>1344</x>
+    <x>512</x>
     <y>8</y>
     <width>112</width>
     <height>32</height>
@@ -118,11 +118,57 @@
     </actions>
   </widget>
   <widget type="rectangle" version="2.0.0">
+    <name>pop_out_background</name>
+    <x>752</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </line_color>
+    <background_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <corner_width>4</corner_width>
+    <corner_height>4</corner_height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>pop_out_icon</name>
+    <x>758</x>
+    <y>14</y>
+    <width>20</width>
+    <height>20</height>
+    <file>pop_out.svg</file>
+    <stretch_image>true</stretch_image>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>pop_out</name>
+    <x>752</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <text></text>
+    <transparent>true</transparent>
+    <tooltip>Open a large copy of this screen in a new window</tooltip>
+    <actions>
+      <action type="open_display">
+        <file>xspress_mca_overlay_large.bob</file>
+        <macros>
+          <P>$(P)</P>
+          <R>$(R)</R>
+        </macros>
+        <target>window</target>
+        <description>Open large in a new window</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
     <name>accent</name>
     <class>ACCENT_STRIP</class>
     <x>0</x>
     <y>48</y>
-    <width>1600</width>
+    <width>800</width>
     <height>4</height>
     <background_color use_class="true">
       <color name="Accent_Strip" red="0" green="122" blue="191"/>
@@ -136,8 +182,8 @@
     <name>mca_all</name>
     <x>16</x>
     <y>68</y>
-    <width>1568</width>
-    <height>876</height>
+    <width>768</width>
+    <height>384</height>
     <title>All channels</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>

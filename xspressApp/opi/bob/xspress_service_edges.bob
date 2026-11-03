@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>Connections $(P)$(R)</name>
+  <name>Connections</name>
   <width>1312</width>
   <height>764</height>
   <background_color>

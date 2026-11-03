@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>Xspress $(P)</name>
+  <name>Xspress 3</name>
   <width>952</width>
   <height>960</height>
   <background_color>
@@ -45,7 +45,7 @@
       <color name="Header_Text" red="255" green="255" blue="255"/>
     </foreground_color>
     <transparent use_class="true">true</transparent>
-    <text>Xspress Detector</text>
+    <text>Xspress3 Detector</text>
     <vertical_alignment>1</vertical_alignment>
   </widget>
   <widget type="label" version="2.0.0">
@@ -54,7 +54,7 @@
     <y>30</y>
     <width>400</width>
     <height>16</height>
-    <text>$(P)</text>
+    <text>Quantum Detectors</text>
     <font>
       <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
     </font>
@@ -86,7 +86,7 @@
         <macros>
           <R>:SC:</R>
         </macros>
-        <target>window</target>
+        <target>tab</target>
         <description>Services</description>
       </action>
     </actions>
@@ -114,7 +114,7 @@
         <macros>
           <R>:CAM:</R>
         </macros>
-        <target>window</target>
+        <target>tab</target>
         <description>Live view</description>
       </action>
     </actions>
@@ -142,7 +142,7 @@
         <macros>
           <R>:CAM:</R>
         </macros>
-        <target>window</target>
+        <target>tab</target>
         <description>MCA spectra</description>
       </action>
     </actions>
