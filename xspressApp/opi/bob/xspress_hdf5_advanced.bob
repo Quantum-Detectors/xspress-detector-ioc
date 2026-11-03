@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>HDF5 advanced $(P)$(R)</name>
+  <name>HDF5 advanced</name>
   <width>488</width>
   <height>840</height>
   <background_color>

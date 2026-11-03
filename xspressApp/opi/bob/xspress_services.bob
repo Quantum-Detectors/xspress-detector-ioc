@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>Services $(P)$(R)</name>
+  <name>Services</name>
   <width>1600</width>
   <height>1000</height>
   <background_color>

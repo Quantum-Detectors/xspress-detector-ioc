@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>MCA $(P)$(R)</name>
+  <name>MCA</name>
   <width>1600</width>
   <height>960</height>
   <background_color>

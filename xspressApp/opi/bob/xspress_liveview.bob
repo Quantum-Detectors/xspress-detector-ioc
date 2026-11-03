@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
-  <name>Live view $(P)$(R)</name>
+  <name>Live view</name>
   <width>800</width>
   <height>600</height>
   <background_color>
