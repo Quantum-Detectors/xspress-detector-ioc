@@ -18,8 +18,8 @@ phoebus -resource "file:/opt/QD/epics/ioc/xspress/xspressApp/opi/bob/xspress_ser
 ```
 
 The main window's header buttons open the MCA spectra, live view and
-services windows on their own, so they can sit beside the detector window.
-The MCA window shows one plot per channel or all channels on one plot;
+services screens in new tabs of the Phoebus window.
+The MCA tab shows one plot per channel or all channels on one plot;
 its Overlay / Per channel button switches between the two.
 
 ## Screens
@@ -34,10 +34,10 @@ its Overlay / Per channel button switches between the two.
 | `xspress_data.bob` | Tab: OdinData driver, HDF5 writer, array plugin, meta writer, live view, Blosc (EDM `XspressDAQMain`, `LiveViewPlugin`, `BloscPlugin`, ARR) | `P`, `R=:OD:` |
 | `xspress_expert.bob` | Tab: settings files, detector configuration, Xspress and control application commands, IOC scan rates (EDM `XspressAll`) | `P`, `R=:CAM:` |
 | `xspress_hdf5_advanced.bob` | Window: HDF5 dataset and file settings (EDM `OdinDataHDF5Advanced`) | `P`, `R=:OD:` |
-| `xspress_mca.bob` | Window: MCA spectrum of each channel (EDM `Xspress8ChanMCA`) | `P`, `R=:CAM:` |
-| `xspress_mca_overlay.bob` | Window: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
-| `xspress_liveview.bob` | Window: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
-| `xspress_services.bob` | Window: wiring diagram of the services, their connections and the stack state (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
+| `xspress_mca.bob` | Tab: MCA spectrum of each channel (EDM `Xspress8ChanMCA`) | `P`, `R=:CAM:` |
+| `xspress_mca_overlay.bob` | Tab: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
+| `xspress_liveview.bob` | Tab: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
+| `xspress_services.bob` | Tab: wiring diagram of the services, their connections and the stack state (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
 | `xspress_service_edges.bob` | Window: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
 | `xspress_service.bob` | Window: one service's unit, state, controls, listeners and journal (EDM `xspress-sc-<service>`) | `P`, `R`, `SVC` (e.g. `FR1`), `DESC`, `LISTENERS` (`fr`, `fp`, `xctrl`, `meta`, `lvm`, `odin`, `ioc`) |
 
