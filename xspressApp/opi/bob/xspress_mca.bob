@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display version="2.0.0">
   <name>MCA</name>
-  <width>1600</width>
-  <height>960</height>
+  <width>800</width>
+  <height>1252</height>
   <background_color>
     <color name="Background" red="210" green="215" blue="220"/>
   </background_color>
@@ -13,7 +13,7 @@
     <class>HEADER_BAR</class>
     <x>0</x>
     <y>0</y>
-    <width>1600</width>
+    <width>800</width>
     <height>48</height>
     <background_color use_class="true">
       <color name="Header_Background" red="5" green="57" blue="93"/>
@@ -66,7 +66,7 @@
   <widget type="action_button" version="3.0.0">
     <name>nav_2</name>
     <class>NAV_BUTTON</class>
-    <x>1464</x>
+    <x>672</x>
     <y>8</y>
     <width>112</width>
     <height>32</height>
@@ -91,7 +91,7 @@
   <widget type="action_button" version="3.0.0">
     <name>nav_1</name>
     <class>NAV_BUTTON</class>
-    <x>1344</x>
+    <x>552</x>
     <y>8</y>
     <width>112</width>
     <height>32</height>
@@ -122,7 +122,7 @@
     <class>ACCENT_STRIP</class>
     <x>0</x>
     <y>48</y>
-    <width>1600</width>
+    <width>800</width>
     <height>4</height>
     <background_color use_class="true">
       <color name="Accent_Strip" red="0" green="122" blue="191"/>
@@ -136,8 +136,8 @@
     <name>mca1</name>
     <x>16</x>
     <y>68</y>
-    <width>380</width>
-    <height>430</height>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 1</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -207,10 +207,10 @@
   </widget>
   <widget type="xyplot" version="3.0.0">
     <name>mca2</name>
-    <x>412</x>
+    <x>408</x>
     <y>68</y>
-    <width>380</width>
-    <height>430</height>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 2</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -280,10 +280,10 @@
   </widget>
   <widget type="xyplot" version="3.0.0">
     <name>mca3</name>
-    <x>808</x>
-    <y>68</y>
-    <width>380</width>
-    <height>430</height>
+    <x>16</x>
+    <y>364</y>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 3</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -353,10 +353,10 @@
   </widget>
   <widget type="xyplot" version="3.0.0">
     <name>mca4</name>
-    <x>1204</x>
-    <y>68</y>
-    <width>380</width>
-    <height>430</height>
+    <x>408</x>
+    <y>364</y>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 4</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -427,9 +427,9 @@
   <widget type="xyplot" version="3.0.0">
     <name>mca5</name>
     <x>16</x>
-    <y>514</y>
-    <width>380</width>
-    <height>430</height>
+    <y>660</y>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 5</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -499,10 +499,10 @@
   </widget>
   <widget type="xyplot" version="3.0.0">
     <name>mca6</name>
-    <x>412</x>
-    <y>514</y>
-    <width>380</width>
-    <height>430</height>
+    <x>408</x>
+    <y>660</y>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 6</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -572,10 +572,10 @@
   </widget>
   <widget type="xyplot" version="3.0.0">
     <name>mca7</name>
-    <x>808</x>
-    <y>514</y>
-    <width>380</width>
-    <height>430</height>
+    <x>16</x>
+    <y>956</y>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 7</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -645,10 +645,10 @@
   </widget>
   <widget type="xyplot" version="3.0.0">
     <name>mca8</name>
-    <x>1204</x>
-    <y>514</y>
-    <width>380</width>
-    <height>430</height>
+    <x>408</x>
+    <y>956</y>
+    <width>376</width>
+    <height>280</height>
     <title>Channel 8</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>

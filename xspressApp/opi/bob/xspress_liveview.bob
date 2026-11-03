@@ -2,7 +2,7 @@
 <display version="2.0.0">
   <name>Live view</name>
   <width>800</width>
-  <height>600</height>
+  <height>556</height>
   <background_color>
     <color name="Background" red="210" green="215" blue="220"/>
   </background_color>
@@ -83,7 +83,7 @@
     <x>16</x>
     <y>68</y>
     <width>768</width>
-    <height>436</height>
+    <height>384</height>
     <title>Live spectrum</title>
     <title_font>
       <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
@@ -155,7 +155,7 @@
     <name>Selection_panel</name>
     <class>PANEL</class>
     <x>16</x>
-    <y>512</y>
+    <y>468</y>
     <width>768</width>
     <height>72</height>
     <background_color use_class="true">
@@ -170,7 +170,7 @@
     <name>Selection_title</name>
     <class>SECTION</class>
     <x>28</x>
-    <y>520</y>
+    <y>476</y>
     <width>744</width>
     <height>24</height>
     <font use_class="true">
@@ -186,7 +186,7 @@
   <widget type="group" version="3.0.0">
     <name>Selection</name>
     <x>20</x>
-    <y>552</y>
+    <y>508</y>
     <width>760</width>
     <height>24</height>
     <style>3</style>
