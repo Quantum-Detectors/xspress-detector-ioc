@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>Services</name>
+  <width>800</width>
+  <height>292</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>header</name>
+    <class>HEADER_BAR</class>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>48</height>
+    <background_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>logo</name>
+    <x>16</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <file>$(theme_root)/header_logo.png</file>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>title</name>
+    <class>TITLE</class>
+    <x>56</x>
+    <y>2</y>
+    <width>400</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Screen_Title" family="Liberation Sans" style="BOLD" size="22.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Xspress services</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>subtitle</name>
+    <x>56</x>
+    <y>30</y>
+    <width>400</width>
+    <height>16</height>
+    <text>$(P)$(R)</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>nav_1</name>
+    <class>NAV_BUTTON</class>
+    <x>632</x>
+    <y>8</y>
+    <width>112</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Nav_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <text>Connections</text>
+    <actions>
+      <action type="open_display">
+        <file>xspress_service_edges.bob</file>
+        <target>tab</target>
+        <description>All connections</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>pop_out_background</name>
+    <x>752</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </line_color>
+    <background_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <corner_width>4</corner_width>
+    <corner_height>4</corner_height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>pop_out_icon</name>
+    <x>758</x>
+    <y>14</y>
+    <width>20</width>
+    <height>20</height>
+    <file>pop_out.svg</file>
+    <stretch_image>true</stretch_image>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>pop_out</name>
+    <x>752</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <text></text>
+    <transparent>true</transparent>
+    <tooltip>Open a large copy of this screen in a new window</tooltip>
+    <actions>
+      <action type="open_display">
+        <file>xspress_services_large.bob</file>
+        <macros>
+          <P>$(P)</P>
+          <R>$(R)</R>
+        </macros>
+        <target>window</target>
+        <description>Open large in a new window</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>accent</name>
+    <class>ACCENT_STRIP</class>
+    <x>0</x>
+    <y>48</y>
+    <width>800</width>
+    <height>4</height>
+    <background_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Stack_panel</name>
+    <class>PANEL</class>
+    <x>16</x>
+    <y>68</y>
+    <width>272</width>
+    <height>208</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Stack_title</name>
+    <class>SECTION</class>
+    <x>28</x>
+    <y>76</y>
+    <width>248</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Stack</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Stack</name>
+    <x>20</x>
+    <y>108</y>
+    <width>264</width>
+    <height>160</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="label" version="2.0.0">
+      <name>state_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>0</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>State</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>state_led</name>
+      <x>104</x>
+      <y>2</y>
+      <width>20</width>
+      <height>20</height>
+      <pv_name>$(P)$(R)STATE</pv_name>
+      <square>false</square>
+      <states>
+        <state>
+          <value>0</value>
+          <label/>
+          <color>
+            <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label/>
+          <color>
+            <color name="LED_Amber_On" red="255" green="228" blue="125"/>
+          </color>
+        </state>
+        <state>
+          <value>2</value>
+          <label/>
+          <color>
+            <color name="LED_Amber_On" red="255" green="228" blue="125"/>
+          </color>
+        </state>
+        <state>
+          <value>3</value>
+          <label/>
+          <color>
+            <color name="LED_Green_On" red="60" green="249" blue="89"/>
+          </color>
+        </state>
+        <state>
+          <value>4</value>
+          <label/>
+          <color>
+            <color name="LED_Red_On" red="255" green="37" blue="36"/>
+          </color>
+        </state>
+      </states>
+      <fallback_label/>
+      <fallback_color>
+        <color name="Off" red="245" green="245" blue="245"/>
+      </fallback_color>
+      <line_color>
+        <color name="Equipment_Border" red="90" green="90" blue="90"/>
+      </line_color>
+      <font>
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>state</name>
+      <class>VALUE</class>
+      <x>132</x>
+      <y>0</y>
+      <width>120</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)STATE</pv_name>
+      <horizontal_alignment>0</horizontal_alignment>
+      <format>6</format>
+      <wrap_words>false</wrap_words>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>ready_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>32</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Ready</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>ready</name>
+      <class>LED_GREEN</class>
+      <x>104</x>
+      <y>34</y>
+      <width>20</width>
+      <height>20</height>
+      <on_color use_class="true">
+        <color name="LED_Green_On" red="60" green="249" blue="89"/>
+      </on_color>
+      <off_color use_class="true">
+        <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+      </off_color>
+      <pv_name>$(P)$(R)READY</pv_name>
+      <line_color>
+        <color name="Equipment_Border" red="90" green="90" blue="90"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>post_label</name>
+      <class>LABEL</class>
+      <x>136</x>
+      <y>32</y>
+      <width>88</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Post ready</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="led" version="2.0.0">
+      <name>post_ready</name>
+      <class>LED_GREEN</class>
+      <x>228</x>
+      <y>34</y>
+      <width>20</width>
+      <height>20</height>
+      <on_color use_class="true">
+        <color name="LED_Green_On" red="60" green="249" blue="89"/>
+      </on_color>
+      <off_color use_class="true">
+        <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+      </off_color>
+      <pv_name>$(P)$(R)POST_READY</pv_name>
+      <line_color>
+        <color name="Equipment_Border" red="90" green="90" blue="90"/>
+      </line_color>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>faults_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>64</y>
+      <width>96</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Faults</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="textupdate" version="2.0.0">
+      <name>faults</name>
+      <class>VALUE</class>
+      <x>104</x>
+      <y>64</y>
+      <width>64</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Value" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <transparent use_class="true">false</transparent>
+      <border_alarm_sensitive use_class="true">true</border_alarm_sensitive>
+      <pv_name>$(P)$(R)FAULTS</pv_name>
+      <horizontal_alignment>2</horizontal_alignment>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="label" version="2.0.0">
+      <name>group_label</name>
+      <class>LABEL</class>
+      <x>8</x>
+      <y>96</y>
+      <width>240</width>
+      <height>24</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text_Muted" red="75" green="75" blue="75"/>
+      </foreground_color>
+      <transparent use_class="true">true</transparent>
+      <text>Group qd-xspress-all</text>
+      <vertical_alignment>1</vertical_alignment>
+    </widget>
+    <widget type="multi_state_led" version="2.0.0">
+      <name>group_led</name>
+      <x>8</x>
+      <y>136</y>
+      <width>16</width>
+      <height>16</height>
+      <pv_name>$(P)$(R)G:QD_XSPRESS_ALL:STATE</pv_name>
+      <square>false</square>
+      <states>
+        <state>
+          <value>0</value>
+          <label/>
+          <color>
+            <color name="Off" red="245" green="245" blue="245"/>
+          </color>
+        </state>
+        <state>
+          <value>1</value>
+          <label/>
+          <color>
+            <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+          </color>
+        </state>
+        <state>
+          <value>2</value>
+          <label/>
+          <color>
+            <color name="LED_Amber_On" red="255" green="228" blue="125"/>
+          </color>
+        </state>
+        <state>
+          <value>3</value>
+          <label/>
+          <color>
+            <color name="LED_Green_On" red="60" green="249" blue="89"/>
+          </color>
+        </state>
+        <state>
+          <value>4</value>
+          <label/>
+          <color>
+            <color name="LED_Red_On" red="255" green="37" blue="36"/>
+          </color>
+        </state>
+      </states>
+      <fallback_label/>
+      <fallback_color>
+        <color name="Off" red="245" green="245" blue="245"/>
+      </fallback_color>
+      <line_color>
+        <color name="Equipment_Border" red="90" green="90" blue="90"/>
+      </line_color>
+      <font>
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>start</name>
+      <class>BUTTON</class>
+      <x>32</x>
+      <y>128</y>
+      <width>72</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Start</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)START</pv_name>
+          <value>1</value>
+          <description>Start</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Start the whole Xspress stack?</confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>stop</name>
+      <class>BUTTON</class>
+      <x>108</x>
+      <y>128</y>
+      <width>72</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Stop</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)STOP</pv_name>
+          <value>1</value>
+          <description>Stop</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Stop the whole Xspress stack?</confirm_message>
+    </widget>
+    <widget type="action_button" version="3.0.0">
+      <name>restart</name>
+      <class>BUTTON</class>
+      <x>184</x>
+      <y>128</y>
+      <width>72</width>
+      <height>32</height>
+      <font use_class="true">
+        <font name="Default" family="Liberation Sans" style="REGULAR" size="14.0"/>
+      </font>
+      <foreground_color use_class="true">
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color use_class="true">
+        <color name="Button_Background" red="233" green="237" blue="240"/>
+      </background_color>
+      <text>Restart</text>
+      <actions>
+        <action type="write_pv">
+          <pv_name>$(P)$(R)RESTART</pv_name>
+          <value>1</value>
+          <description>Restart</description>
+        </action>
+      </actions>
+      <show_confirm_dialog>true</show_confirm_dialog>
+      <confirm_message>Restart the whole Xspress stack?</confirm_message>
+    </widget>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>Fault_panel</name>
+    <class>PANEL</class>
+    <x>304</x>
+    <y>68</y>
+    <width>480</width>
+    <height>208</height>
+    <background_color use_class="true">
+      <color name="Panel_Background" red="195" green="201" blue="207"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Panel_Border" red="153" green="161" blue="170"/>
+    </line_color>
+    <line_width use_class="true">1</line_width>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>Fault_title</name>
+    <class>SECTION</class>
+    <x>316</x>
+    <y>76</y>
+    <width>456</width>
+    <height>24</height>
+    <font use_class="true">
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>Fault</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="group" version="3.0.0">
+    <name>Fault</name>
+    <x>308</x>
+    <y>108</y>
+    <width>472</width>
+    <height>160</height>
+    <style>3</style>
+    <transparent>true</transparent>
+    <widget type="textupdate" version="2.0.0">
+      <name>fault_msg</name>
+      <x>8</x>
+      <y>0</y>
+      <width>456</width>
+      <height>160</height>
+      <pv_name>$(P)$(R)FAULT_MSG</pv_name>
+      <format>6</format>
+      <font>
+        <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </font>
+      <foreground_color>
+        <color name="Text" red="25" green="25" blue="25"/>
+      </foreground_color>
+      <background_color>
+        <color name="Read_Background" red="225" green="229" blue="232"/>
+      </background_color>
+      <vertical_alignment>0</vertical_alignment>
+      <wrap_words>true</wrap_words>
+    </widget>
+  </widget>
+</display>
