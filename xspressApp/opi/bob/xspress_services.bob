@@ -105,7 +105,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_ioc</name>
-    <x>16</x>
+    <x>320</x>
     <y>112</y>
     <width>192</width>
     <height>148</height>
@@ -120,7 +120,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_odin</name>
-    <x>272</x>
+    <x>576</x>
     <y>112</y>
     <width>192</width>
     <height>148</height>
@@ -135,7 +135,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_lvm</name>
-    <x>816</x>
+    <x>1120</x>
     <y>112</y>
     <width>192</width>
     <height>148</height>
@@ -151,7 +151,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>panel_xctrl</name>
     <class>PANEL</class>
-    <x>272</x>
+    <x>576</x>
     <y>292</y>
     <width>192</width>
     <height>664</height>
@@ -165,7 +165,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_xctrl</name>
-    <x>272</x>
+    <x>576</x>
     <y>292</y>
     <width>192</width>
     <height>148</height>
@@ -181,7 +181,7 @@
   <widget type="label" version="2.0.0">
     <name>xctrl_finding_label</name>
     <class>LABEL</class>
-    <x>280</x>
+    <x>584</x>
     <y>448</y>
     <width>120</width>
     <height>24</height>
@@ -197,7 +197,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>xctrl_finding</name>
-    <x>280</x>
+    <x>584</x>
     <y>476</y>
     <width>176</width>
     <height>120</height>
@@ -218,7 +218,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>panel_meta</name>
     <class>PANEL</class>
-    <x>1088</x>
+    <x>1392</x>
     <y>292</y>
     <width>192</width>
     <height>664</height>
@@ -232,7 +232,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_meta</name>
-    <x>1088</x>
+    <x>1392</x>
     <y>292</y>
     <width>192</width>
     <height>148</height>
@@ -248,7 +248,7 @@
   <widget type="label" version="2.0.0">
     <name>meta_finding_label</name>
     <class>LABEL</class>
-    <x>1096</x>
+    <x>1400</x>
     <y>448</y>
     <width>120</width>
     <height>24</height>
@@ -264,7 +264,7 @@
   </widget>
   <widget type="textupdate" version="2.0.0">
     <name>meta_finding</name>
-    <x>1096</x>
+    <x>1400</x>
     <y>476</y>
     <width>176</width>
     <height>120</height>
@@ -284,7 +284,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fr1</name>
-    <x>544</x>
+    <x>848</x>
     <y>292</y>
     <width>192</width>
     <height>148</height>
@@ -299,7 +299,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fp1</name>
-    <x>816</x>
+    <x>1120</x>
     <y>292</y>
     <width>192</width>
     <height>148</height>
@@ -315,7 +315,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>card1</name>
     <class>PANEL</class>
-    <x>16</x>
+    <x>320</x>
     <y>292</y>
     <width>160</width>
     <height>148</height>
@@ -330,7 +330,7 @@
   <widget type="label" version="2.0.0">
     <name>card1_name</name>
     <class>SECTION</class>
-    <x>24</x>
+    <x>328</x>
     <y>296</y>
     <width>144</width>
     <height>24</height>
@@ -347,7 +347,7 @@
   <widget type="label" version="2.0.0">
     <name>card1_addr</name>
     <class>LABEL</class>
-    <x>24</x>
+    <x>328</x>
     <y>412</y>
     <width>144</width>
     <height>24</height>
@@ -363,7 +363,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fr2</name>
-    <x>544</x>
+    <x>848</x>
     <y>464</y>
     <width>192</width>
     <height>148</height>
@@ -378,7 +378,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fp2</name>
-    <x>816</x>
+    <x>1120</x>
     <y>464</y>
     <width>192</width>
     <height>148</height>
@@ -394,7 +394,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>card2</name>
     <class>PANEL</class>
-    <x>16</x>
+    <x>320</x>
     <y>464</y>
     <width>160</width>
     <height>148</height>
@@ -409,7 +409,7 @@
   <widget type="label" version="2.0.0">
     <name>card2_name</name>
     <class>SECTION</class>
-    <x>24</x>
+    <x>328</x>
     <y>468</y>
     <width>144</width>
     <height>24</height>
@@ -426,7 +426,7 @@
   <widget type="label" version="2.0.0">
     <name>card2_addr</name>
     <class>LABEL</class>
-    <x>24</x>
+    <x>328</x>
     <y>584</y>
     <width>144</width>
     <height>24</height>
@@ -442,7 +442,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fr3</name>
-    <x>544</x>
+    <x>848</x>
     <y>636</y>
     <width>192</width>
     <height>148</height>
@@ -457,7 +457,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fp3</name>
-    <x>816</x>
+    <x>1120</x>
     <y>636</y>
     <width>192</width>
     <height>148</height>
@@ -473,7 +473,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>card3</name>
     <class>PANEL</class>
-    <x>16</x>
+    <x>320</x>
     <y>636</y>
     <width>160</width>
     <height>148</height>
@@ -488,7 +488,7 @@
   <widget type="label" version="2.0.0">
     <name>card3_name</name>
     <class>SECTION</class>
-    <x>24</x>
+    <x>328</x>
     <y>640</y>
     <width>144</width>
     <height>24</height>
@@ -505,7 +505,7 @@
   <widget type="label" version="2.0.0">
     <name>card3_addr</name>
     <class>LABEL</class>
-    <x>24</x>
+    <x>328</x>
     <y>756</y>
     <width>144</width>
     <height>24</height>
@@ -521,7 +521,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fr4</name>
-    <x>544</x>
+    <x>848</x>
     <y>808</y>
     <width>192</width>
     <height>148</height>
@@ -536,7 +536,7 @@
   </widget>
   <widget type="embedded" version="2.0.0">
     <name>blk_fp4</name>
-    <x>816</x>
+    <x>1120</x>
     <y>808</y>
     <width>192</width>
     <height>148</height>
@@ -552,7 +552,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>card4</name>
     <class>PANEL</class>
-    <x>16</x>
+    <x>320</x>
     <y>808</y>
     <width>160</width>
     <height>148</height>
@@ -567,7 +567,7 @@
   <widget type="label" version="2.0.0">
     <name>card4_name</name>
     <class>SECTION</class>
-    <x>24</x>
+    <x>328</x>
     <y>812</y>
     <width>144</width>
     <height>24</height>
@@ -584,7 +584,7 @@
   <widget type="label" version="2.0.0">
     <name>card4_addr</name>
     <class>LABEL</class>
-    <x>24</x>
+    <x>328</x>
     <y>928</y>
     <width>144</width>
     <height>24</height>
@@ -600,7 +600,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card1_30124</name>
-    <x>176</x>
+    <x>480</x>
     <y>336</y>
     <width>97</width>
     <height>2</height>
@@ -639,7 +639,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card1_30126</name>
-    <x>176</x>
+    <x>480</x>
     <y>364</y>
     <width>97</width>
     <height>2</height>
@@ -678,7 +678,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card1_30127</name>
-    <x>176</x>
+    <x>480</x>
     <y>392</y>
     <width>97</width>
     <height>2</height>
@@ -717,7 +717,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fr1</name>
-    <x>464</x>
+    <x>768</x>
     <y>184</y>
     <width>81</width>
     <height>153</height>
@@ -758,7 +758,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fp1</name>
-    <x>464</x>
+    <x>768</x>
     <y>124</y>
     <width>353</width>
     <height>213</height>
@@ -799,7 +799,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp1_fr1_frame_ready</name>
-    <x>736</x>
+    <x>1040</x>
     <y>364</y>
     <width>81</width>
     <height>2</height>
@@ -838,7 +838,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp1_fr1_frame_release</name>
-    <x>736</x>
+    <x>1040</x>
     <y>388</y>
     <width>81</width>
     <height>2</height>
@@ -877,7 +877,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_meta_fp1</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>364</y>
     <width>81</width>
     <height>2</height>
@@ -916,7 +916,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_lvm_fp1</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>160</y>
     <width>17</width>
     <height>229</height>
@@ -957,7 +957,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fr1_xctrl</name>
-    <x>464</x>
+    <x>768</x>
     <y>416</y>
     <width>81</width>
     <height>2</height>
@@ -996,7 +996,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card2_30124</name>
-    <x>176</x>
+    <x>480</x>
     <y>508</y>
     <width>97</width>
     <height>2</height>
@@ -1035,7 +1035,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card2_30126</name>
-    <x>176</x>
+    <x>480</x>
     <y>536</y>
     <width>97</width>
     <height>2</height>
@@ -1074,7 +1074,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card2_30127</name>
-    <x>176</x>
+    <x>480</x>
     <y>564</y>
     <width>97</width>
     <height>2</height>
@@ -1113,7 +1113,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fr2</name>
-    <x>464</x>
+    <x>768</x>
     <y>196</y>
     <width>81</width>
     <height>313</height>
@@ -1154,7 +1154,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fp2</name>
-    <x>464</x>
+    <x>768</x>
     <y>136</y>
     <width>353</width>
     <height>373</height>
@@ -1195,7 +1195,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp2_fr2_frame_ready</name>
-    <x>736</x>
+    <x>1040</x>
     <y>536</y>
     <width>81</width>
     <height>2</height>
@@ -1234,7 +1234,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp2_fr2_frame_release</name>
-    <x>736</x>
+    <x>1040</x>
     <y>560</y>
     <width>81</width>
     <height>2</height>
@@ -1273,7 +1273,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_meta_fp2</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>536</y>
     <width>81</width>
     <height>2</height>
@@ -1312,7 +1312,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_lvm_fp2</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>148</y>
     <width>25</width>
     <height>413</height>
@@ -1353,7 +1353,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fr2_xctrl</name>
-    <x>464</x>
+    <x>768</x>
     <y>588</y>
     <width>81</width>
     <height>2</height>
@@ -1392,7 +1392,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card3_30124</name>
-    <x>176</x>
+    <x>480</x>
     <y>680</y>
     <width>97</width>
     <height>2</height>
@@ -1431,7 +1431,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card3_30126</name>
-    <x>176</x>
+    <x>480</x>
     <y>708</y>
     <width>97</width>
     <height>2</height>
@@ -1470,7 +1470,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card3_30127</name>
-    <x>176</x>
+    <x>480</x>
     <y>736</y>
     <width>97</width>
     <height>2</height>
@@ -1509,7 +1509,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fr3</name>
-    <x>464</x>
+    <x>768</x>
     <y>208</y>
     <width>81</width>
     <height>473</height>
@@ -1550,7 +1550,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fp3</name>
-    <x>464</x>
+    <x>768</x>
     <y>148</y>
     <width>353</width>
     <height>533</height>
@@ -1591,7 +1591,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp3_fr3_frame_ready</name>
-    <x>736</x>
+    <x>1040</x>
     <y>708</y>
     <width>81</width>
     <height>2</height>
@@ -1630,7 +1630,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp3_fr3_frame_release</name>
-    <x>736</x>
+    <x>1040</x>
     <y>732</y>
     <width>81</width>
     <height>2</height>
@@ -1669,7 +1669,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_meta_fp3</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>708</y>
     <width>81</width>
     <height>2</height>
@@ -1708,7 +1708,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_lvm_fp3</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>136</y>
     <width>33</width>
     <height>597</height>
@@ -1749,7 +1749,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fr3_xctrl</name>
-    <x>464</x>
+    <x>768</x>
     <y>760</y>
     <width>81</width>
     <height>2</height>
@@ -1788,7 +1788,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card4_30124</name>
-    <x>176</x>
+    <x>480</x>
     <y>852</y>
     <width>97</width>
     <height>2</height>
@@ -1827,7 +1827,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card4_30126</name>
-    <x>176</x>
+    <x>480</x>
     <y>880</y>
     <width>97</width>
     <height>2</height>
@@ -1866,7 +1866,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_xctrl_card4_30127</name>
-    <x>176</x>
+    <x>480</x>
     <y>908</y>
     <width>97</width>
     <height>2</height>
@@ -1905,7 +1905,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fr4</name>
-    <x>464</x>
+    <x>768</x>
     <y>220</y>
     <width>81</width>
     <height>633</height>
@@ -1946,7 +1946,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_fp4</name>
-    <x>464</x>
+    <x>768</x>
     <y>160</y>
     <width>353</width>
     <height>693</height>
@@ -1987,7 +1987,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp4_fr4_frame_ready</name>
-    <x>736</x>
+    <x>1040</x>
     <y>880</y>
     <width>81</width>
     <height>2</height>
@@ -2026,7 +2026,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fp4_fr4_frame_release</name>
-    <x>736</x>
+    <x>1040</x>
     <y>904</y>
     <width>81</width>
     <height>2</height>
@@ -2065,7 +2065,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_meta_fp4</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>880</y>
     <width>81</width>
     <height>2</height>
@@ -2104,7 +2104,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_lvm_fp4</name>
-    <x>1008</x>
+    <x>1312</x>
     <y>124</y>
     <width>41</width>
     <height>781</height>
@@ -2145,7 +2145,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_fr4_xctrl</name>
-    <x>464</x>
+    <x>768</x>
     <y>932</y>
     <width>81</width>
     <height>2</height>
@@ -2184,7 +2184,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_ioc_odin</name>
-    <x>208</x>
+    <x>512</x>
     <y>184</y>
     <width>65</width>
     <height>2</height>
@@ -2223,7 +2223,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_ioc_lvm</name>
-    <x>112</x>
+    <x>416</x>
     <y>72</y>
     <width>801</width>
     <height>41</height>
@@ -2264,7 +2264,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_meta</name>
-    <x>440</x>
+    <x>744</x>
     <y>88</y>
     <width>745</width>
     <height>205</height>
@@ -2305,7 +2305,7 @@
   </widget>
   <widget type="polyline" version="2.0.0">
     <name>w_odin_xctrl</name>
-    <x>368</x>
+    <x>672</x>
     <y>260</y>
     <width>2</width>
     <height>33</height>
@@ -2344,7 +2344,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card1_30124</name>
-    <x>171</x>
+    <x>475</x>
     <y>331</y>
     <width>10</width>
     <height>10</height>
@@ -2405,7 +2405,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card1_30126</name>
-    <x>171</x>
+    <x>475</x>
     <y>359</y>
     <width>10</width>
     <height>10</height>
@@ -2466,7 +2466,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card1_30127</name>
-    <x>171</x>
+    <x>475</x>
     <y>387</y>
     <width>10</width>
     <height>10</height>
@@ -2527,7 +2527,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr1_control</name>
-    <x>539</x>
+    <x>843</x>
     <y>331</y>
     <width>10</width>
     <height>10</height>
@@ -2588,7 +2588,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp1_control</name>
-    <x>811</x>
+    <x>1115</x>
     <y>331</y>
     <width>10</width>
     <height>10</height>
@@ -2649,7 +2649,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr1_frame_ready</name>
-    <x>731</x>
+    <x>1035</x>
     <y>359</y>
     <width>10</width>
     <height>10</height>
@@ -2710,7 +2710,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr1_frame_release</name>
-    <x>731</x>
+    <x>1035</x>
     <y>383</y>
     <width>10</width>
     <height>10</height>
@@ -2771,7 +2771,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp1_meta</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>359</y>
     <width>10</width>
     <height>10</height>
@@ -2832,7 +2832,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp1_liveview</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>383</y>
     <width>10</width>
     <height>10</height>
@@ -2893,7 +2893,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_xctrl_daq1</name>
-    <x>459</x>
+    <x>763</x>
     <y>411</y>
     <width>10</width>
     <height>10</height>
@@ -2954,7 +2954,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card2_30124</name>
-    <x>171</x>
+    <x>475</x>
     <y>503</y>
     <width>10</width>
     <height>10</height>
@@ -3015,7 +3015,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card2_30126</name>
-    <x>171</x>
+    <x>475</x>
     <y>531</y>
     <width>10</width>
     <height>10</height>
@@ -3076,7 +3076,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card2_30127</name>
-    <x>171</x>
+    <x>475</x>
     <y>559</y>
     <width>10</width>
     <height>10</height>
@@ -3137,7 +3137,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr2_control</name>
-    <x>539</x>
+    <x>843</x>
     <y>503</y>
     <width>10</width>
     <height>10</height>
@@ -3198,7 +3198,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp2_control</name>
-    <x>811</x>
+    <x>1115</x>
     <y>503</y>
     <width>10</width>
     <height>10</height>
@@ -3259,7 +3259,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr2_frame_ready</name>
-    <x>731</x>
+    <x>1035</x>
     <y>531</y>
     <width>10</width>
     <height>10</height>
@@ -3320,7 +3320,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr2_frame_release</name>
-    <x>731</x>
+    <x>1035</x>
     <y>555</y>
     <width>10</width>
     <height>10</height>
@@ -3381,7 +3381,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp2_meta</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>531</y>
     <width>10</width>
     <height>10</height>
@@ -3442,7 +3442,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp2_liveview</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>555</y>
     <width>10</width>
     <height>10</height>
@@ -3503,7 +3503,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_xctrl_daq2</name>
-    <x>459</x>
+    <x>763</x>
     <y>583</y>
     <width>10</width>
     <height>10</height>
@@ -3564,7 +3564,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card3_30124</name>
-    <x>171</x>
+    <x>475</x>
     <y>675</y>
     <width>10</width>
     <height>10</height>
@@ -3625,7 +3625,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card3_30126</name>
-    <x>171</x>
+    <x>475</x>
     <y>703</y>
     <width>10</width>
     <height>10</height>
@@ -3686,7 +3686,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card3_30127</name>
-    <x>171</x>
+    <x>475</x>
     <y>731</y>
     <width>10</width>
     <height>10</height>
@@ -3747,7 +3747,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr3_control</name>
-    <x>539</x>
+    <x>843</x>
     <y>675</y>
     <width>10</width>
     <height>10</height>
@@ -3808,7 +3808,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp3_control</name>
-    <x>811</x>
+    <x>1115</x>
     <y>675</y>
     <width>10</width>
     <height>10</height>
@@ -3869,7 +3869,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr3_frame_ready</name>
-    <x>731</x>
+    <x>1035</x>
     <y>703</y>
     <width>10</width>
     <height>10</height>
@@ -3930,7 +3930,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr3_frame_release</name>
-    <x>731</x>
+    <x>1035</x>
     <y>727</y>
     <width>10</width>
     <height>10</height>
@@ -3991,7 +3991,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp3_meta</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>703</y>
     <width>10</width>
     <height>10</height>
@@ -4052,7 +4052,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp3_liveview</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>727</y>
     <width>10</width>
     <height>10</height>
@@ -4113,7 +4113,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_xctrl_daq3</name>
-    <x>459</x>
+    <x>763</x>
     <y>755</y>
     <width>10</width>
     <height>10</height>
@@ -4174,7 +4174,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card4_30124</name>
-    <x>171</x>
+    <x>475</x>
     <y>847</y>
     <width>10</width>
     <height>10</height>
@@ -4235,7 +4235,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card4_30126</name>
-    <x>171</x>
+    <x>475</x>
     <y>875</y>
     <width>10</width>
     <height>10</height>
@@ -4296,7 +4296,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_card4_30127</name>
-    <x>171</x>
+    <x>475</x>
     <y>903</y>
     <width>10</width>
     <height>10</height>
@@ -4357,7 +4357,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr4_control</name>
-    <x>539</x>
+    <x>843</x>
     <y>847</y>
     <width>10</width>
     <height>10</height>
@@ -4418,7 +4418,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp4_control</name>
-    <x>811</x>
+    <x>1115</x>
     <y>847</y>
     <width>10</width>
     <height>10</height>
@@ -4479,7 +4479,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr4_frame_ready</name>
-    <x>731</x>
+    <x>1035</x>
     <y>875</y>
     <width>10</width>
     <height>10</height>
@@ -4540,7 +4540,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fr4_frame_release</name>
-    <x>731</x>
+    <x>1035</x>
     <y>899</y>
     <width>10</width>
     <height>10</height>
@@ -4601,7 +4601,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp4_meta</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>875</y>
     <width>10</width>
     <height>10</height>
@@ -4662,7 +4662,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_fp4_liveview</name>
-    <x>1003</x>
+    <x>1307</x>
     <y>899</y>
     <width>10</width>
     <height>10</height>
@@ -4723,7 +4723,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_xctrl_daq4</name>
-    <x>459</x>
+    <x>763</x>
     <y>927</y>
     <width>10</width>
     <height>10</height>
@@ -4784,7 +4784,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_odin_http</name>
-    <x>267</x>
+    <x>571</x>
     <y>179</y>
     <width>10</width>
     <height>10</height>
@@ -4845,7 +4845,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_lvm_pub</name>
-    <x>907</x>
+    <x>1211</x>
     <y>107</y>
     <width>10</width>
     <height>10</height>
@@ -4906,7 +4906,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_meta_meta</name>
-    <x>1179</x>
+    <x>1483</x>
     <y>287</y>
     <width>10</width>
     <height>10</height>
@@ -4967,7 +4967,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_xctrl_control</name>
-    <x>363</x>
+    <x>667</x>
     <y>287</y>
     <width>10</width>
     <height>10</height>
@@ -5028,7 +5028,7 @@
   </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>pin_ioc_console</name>
-    <x>107</x>
+    <x>411</x>
     <y>255</y>
     <width>10</width>
     <height>10</height>
@@ -5089,7 +5089,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card1_30124</name>
-    <x>120</x>
+    <x>424</x>
     <y>318</y>
     <width>48</width>
     <height>16</height>
@@ -5105,7 +5105,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card1_30126</name>
-    <x>120</x>
+    <x>424</x>
     <y>346</y>
     <width>48</width>
     <height>16</height>
@@ -5121,7 +5121,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card1_30127</name>
-    <x>120</x>
+    <x>424</x>
     <y>374</y>
     <width>48</width>
     <height>16</height>
@@ -5137,7 +5137,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card2_30124</name>
-    <x>120</x>
+    <x>424</x>
     <y>490</y>
     <width>48</width>
     <height>16</height>
@@ -5153,7 +5153,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card2_30126</name>
-    <x>120</x>
+    <x>424</x>
     <y>518</y>
     <width>48</width>
     <height>16</height>
@@ -5169,7 +5169,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card2_30127</name>
-    <x>120</x>
+    <x>424</x>
     <y>546</y>
     <width>48</width>
     <height>16</height>
@@ -5185,7 +5185,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card3_30124</name>
-    <x>120</x>
+    <x>424</x>
     <y>662</y>
     <width>48</width>
     <height>16</height>
@@ -5201,7 +5201,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card3_30126</name>
-    <x>120</x>
+    <x>424</x>
     <y>690</y>
     <width>48</width>
     <height>16</height>
@@ -5217,7 +5217,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card3_30127</name>
-    <x>120</x>
+    <x>424</x>
     <y>718</y>
     <width>48</width>
     <height>16</height>
@@ -5233,7 +5233,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card4_30124</name>
-    <x>120</x>
+    <x>424</x>
     <y>834</y>
     <width>48</width>
     <height>16</height>
@@ -5249,7 +5249,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card4_30126</name>
-    <x>120</x>
+    <x>424</x>
     <y>862</y>
     <width>48</width>
     <height>16</height>
@@ -5265,7 +5265,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_card4_30127</name>
-    <x>120</x>
+    <x>424</x>
     <y>890</y>
     <width>48</width>
     <height>16</height>
@@ -5281,7 +5281,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_odin_http</name>
-    <x>224</x>
+    <x>528</x>
     <y>150</y>
     <width>48</width>
     <height>16</height>
@@ -5297,7 +5297,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_lvm_pub</name>
-    <x>920</x>
+    <x>1224</x>
     <y>74</y>
     <width>48</width>
     <height>16</height>
@@ -5313,7 +5313,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_meta_meta</name>
-    <x>1192</x>
+    <x>1496</x>
     <y>254</y>
     <width>48</width>
     <height>16</height>
@@ -5329,7 +5329,7 @@
   </widget>
   <widget type="label" version="2.0.0">
     <name>port_xctrl_control</name>
-    <x>376</x>
+    <x>680</x>
     <y>254</y>
     <width>48</width>
     <height>16</height>
@@ -5346,7 +5346,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>Stack_panel</name>
     <class>PANEL</class>
-    <x>1312</x>
+    <x>16</x>
     <y>68</y>
     <width>272</width>
     <height>208</height>
@@ -5361,7 +5361,7 @@
   <widget type="label" version="2.0.0">
     <name>Stack_title</name>
     <class>SECTION</class>
-    <x>1324</x>
+    <x>28</x>
     <y>76</y>
     <width>248</width>
     <height>24</height>
@@ -5377,7 +5377,7 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Stack</name>
-    <x>1316</x>
+    <x>20</x>
     <y>108</y>
     <width>264</width>
     <height>160</height>
@@ -5755,7 +5755,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>Fault_panel</name>
     <class>PANEL</class>
-    <x>1312</x>
+    <x>16</x>
     <y>292</y>
     <width>272</width>
     <height>128</height>
@@ -5770,7 +5770,7 @@
   <widget type="label" version="2.0.0">
     <name>Fault_title</name>
     <class>SECTION</class>
-    <x>1324</x>
+    <x>28</x>
     <y>300</y>
     <width>248</width>
     <height>24</height>
@@ -5786,7 +5786,7 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Fault</name>
-    <x>1316</x>
+    <x>20</x>
     <y>332</y>
     <width>264</width>
     <height>80</height>
@@ -5816,7 +5816,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>Events_panel</name>
     <class>PANEL</class>
-    <x>1312</x>
+    <x>16</x>
     <y>436</y>
     <width>272</width>
     <height>348</height>
@@ -5831,7 +5831,7 @@
   <widget type="label" version="2.0.0">
     <name>Events_title</name>
     <class>SECTION</class>
-    <x>1324</x>
+    <x>28</x>
     <y>444</y>
     <width>248</width>
     <height>24</height>
@@ -5847,7 +5847,7 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Events</name>
-    <x>1316</x>
+    <x>20</x>
     <y>476</y>
     <width>264</width>
     <height>300</height>
@@ -5878,7 +5878,7 @@
   <widget type="rectangle" version="2.0.0">
     <name>Legend_panel</name>
     <class>PANEL</class>
-    <x>1312</x>
+    <x>16</x>
     <y>800</y>
     <width>272</width>
     <height>184</height>
@@ -5893,7 +5893,7 @@
   <widget type="label" version="2.0.0">
     <name>Legend_title</name>
     <class>SECTION</class>
-    <x>1324</x>
+    <x>28</x>
     <y>808</y>
     <width>248</width>
     <height>24</height>
@@ -5909,7 +5909,7 @@
   </widget>
   <widget type="group" version="3.0.0">
     <name>Legend</name>
-    <x>1316</x>
+    <x>20</x>
     <y>840</y>
     <width>264</width>
     <height>136</height>
