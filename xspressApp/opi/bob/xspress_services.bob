@@ -83,7 +83,7 @@
     <actions>
       <action type="open_display">
         <file>xspress_service_edges.bob</file>
-        <target>window</target>
+        <target>tab</target>
         <description>All connections</description>
       </action>
     </actions>

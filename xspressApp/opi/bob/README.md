@@ -38,7 +38,7 @@ its Overlay / Per channel button switches between the two.
 | `xspress_mca_overlay.bob` | Tab: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
 | `xspress_liveview.bob` | Tab: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
 | `xspress_services.bob` | Tab: wiring diagram of the services, their connections and the stack state (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
-| `xspress_service_edges.bob` | Window: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
+| `xspress_service_edges.bob` | Tab: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
 | `xspress_service.bob` | Window: one service's unit, state, controls, listeners and journal (EDM `xspress-sc-<service>`) | `P`, `R`, `SVC` (e.g. `FR1`), `DESC`, `LISTENERS` (`fr`, `fp`, `xctrl`, `meta`, `lvm`, `odin`, `ioc`) |
 
 Components embedded by the screens above:
