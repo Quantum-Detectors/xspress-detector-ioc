@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display version="2.0.0">
+  <name>MCA</name>
+  <width>1600</width>
+  <height>896</height>
+  <background_color>
+    <color name="Background" red="210" green="215" blue="220"/>
+  </background_color>
+  <grid_step_x>8</grid_step_x>
+  <grid_step_y>8</grid_step_y>
+  <widget type="rectangle" version="2.0.0">
+    <name>header</name>
+    <class>HEADER_BAR</class>
+    <x>0</x>
+    <y>0</y>
+    <width>1600</width>
+    <height>48</height>
+    <background_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Header_Background" red="5" green="57" blue="93"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>logo</name>
+    <x>16</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <file>$(theme_root)/header_logo.png</file>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>title</name>
+    <class>TITLE</class>
+    <x>56</x>
+    <y>2</y>
+    <width>400</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Screen_Title" family="Liberation Sans" style="BOLD" size="22.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent use_class="true">true</transparent>
+    <text>MCA spectra</text>
+    <vertical_alignment>1</vertical_alignment>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>subtitle</name>
+    <x>56</x>
+    <y>30</y>
+    <width>400</width>
+    <height>16</height>
+    <text>$(P)$(R)</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>nav_2</name>
+    <class>NAV_BUTTON</class>
+    <x>1472</x>
+    <y>8</y>
+    <width>112</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Nav_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <text>Live view</text>
+    <actions>
+      <action type="open_display">
+        <file>xspress_liveview_large.bob</file>
+        <target>window</target>
+        <description>Live view</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>nav_1</name>
+    <class>NAV_BUTTON</class>
+    <x>1352</x>
+    <y>8</y>
+    <width>112</width>
+    <height>32</height>
+    <font use_class="true">
+      <font name="Nav" family="Liberation Sans" style="BOLD" size="14.0"/>
+    </font>
+    <foreground_color use_class="true">
+      <color name="Nav_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <background_color use_class="true">
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <text>Per channel</text>
+    <actions>
+      <action type="open_display">
+        <file>xspress_mca_large.bob</file>
+        <macros>
+          <P>$(P)</P>
+          <R>$(R)</R>
+        </macros>
+        <target>replace</target>
+        <description>One plot per channel</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>accent</name>
+    <class>ACCENT_STRIP</class>
+    <x>0</x>
+    <y>48</y>
+    <width>1600</width>
+    <height>4</height>
+    <background_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </background_color>
+    <line_color use_class="true">
+      <color name="Accent_Strip" red="0" green="122" blue="191"/>
+    </line_color>
+    <line_width use_class="true">0</line_width>
+  </widget>
+  <widget type="xyplot" version="3.0.0">
+    <name>mca_all</name>
+    <x>16</x>
+    <y>68</y>
+    <width>1568</width>
+    <height>812</height>
+    <title>All channels</title>
+    <title_font>
+      <font name="Header 3" family="Liberation Sans" style="BOLD" size="16.0"/>
+    </title_font>
+    <foreground_color>
+      <color name="Text" red="25" green="25" blue="25"/>
+    </foreground_color>
+    <background_color>
+      <color name="Write_Background" red="255" green="255" blue="255"/>
+    </background_color>
+    <show_toolbar>true</show_toolbar>
+    <show_legend>true</show_legend>
+    <x_axis>
+      <title>Bin</title>
+      <autoscale>true</autoscale>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <maximum>4096.0</maximum>
+      <show_grid>true</show_grid>
+      <title_font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </title_font>
+      <scale_font>
+        <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+      </scale_font>
+      <visible>true</visible>
+    </x_axis>
+    <y_axes>
+      <y_axis>
+        <title>Counts</title>
+        <autoscale>true</autoscale>
+        <log_scale>false</log_scale>
+        <minimum>0.0</minimum>
+        <maximum>4096.0</maximum>
+        <show_grid>true</show_grid>
+        <title_font>
+          <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+        </title_font>
+        <scale_font>
+          <font name="Label_Small" family="Liberation Sans" style="REGULAR" size="12.0"/>
+        </scale_font>
+        <on_right>false</on_right>
+        <visible>true</visible>
+        <color>
+          <color name="Text" red="25" green="25" blue="25"/>
+        </color>
+      </y_axis>
+    </y_axes>
+    <traces>
+      <trace>
+        <name>Channel 1</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C1ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_1" red="31" green="119" blue="180"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 2</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C2ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_2" red="214" green="39" blue="40"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 3</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C3ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_3" red="44" green="160" blue="44"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 4</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C4ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_4" red="148" green="103" blue="189"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 5</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C5ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_5" red="140" green="86" blue="75"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 6</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C6ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_6" red="227" green="119" blue="194"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 7</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C7ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_7" red="23" green="190" blue="207"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+      <trace>
+        <name>Channel 8</name>
+        <x_pv/>
+        <y_pv>$(P)$(R)C8ChanLiveMCA_RBV</y_pv>
+        <err_pv/>
+        <axis>0</axis>
+        <trace_type>2</trace_type>
+        <color>
+          <color name="Trace_8" red="127" green="127" blue="127"/>
+        </color>
+        <line_width>2</line_width>
+        <line_style>0</line_style>
+        <point_type>0</point_type>
+        <point_size>4</point_size>
+        <visible>true</visible>
+      </trace>
+    </traces>
+  </widget>
+</display>

@@ -21,6 +21,9 @@ The main window's header buttons open the MCA spectra, live view and
 services screens in new tabs of the Phoebus window.
 The MCA tab shows one plot per channel or all channels on one plot;
 its Overlay / Per channel button switches between the two.
+The MCA and live view screens are 800 px wide; the pop-out button at the
+right of their header (`pop_out.svg`) opens a 1600 × 896 copy of the same
+screen, the `_large.bob` file, in a new window.
 
 ## Screens
 
@@ -37,6 +40,7 @@ its Overlay / Per channel button switches between the two.
 | `xspress_mca.bob` | Tab: MCA spectrum of each channel (EDM `Xspress8ChanMCA`) | `P`, `R=:CAM:` |
 | `xspress_mca_overlay.bob` | Tab: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
 | `xspress_liveview.bob` | Tab: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
+| `xspress_mca_large.bob`, `xspress_mca_overlay_large.bob`, `xspress_liveview_large.bob` | Window: 1600 × 896 copies of the three screens above, opened by their pop-out button; their header buttons open the other large screens | `P`, `R=:CAM:` |
 | `xspress_services.bob` | Tab: wiring diagram of the services, their connections and the stack state (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
 | `xspress_service_edges.bob` | Tab: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
 | `xspress_service.bob` | Window: one service's unit, state, controls, listeners and journal (EDM `xspress-sc-<service>`) | `P`, `R`, `SVC` (e.g. `FR1`), `DESC`, `LISTENERS` (`fr`, `fp`, `xctrl`, `meta`, `lvm`, `odin`, `ioc`) |

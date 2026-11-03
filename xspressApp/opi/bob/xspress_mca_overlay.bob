@@ -66,7 +66,7 @@
   <widget type="action_button" version="3.0.0">
     <name>nav_2</name>
     <class>NAV_BUTTON</class>
-    <x>672</x>
+    <x>632</x>
     <y>8</y>
     <width>112</width>
     <height>32</height>
@@ -91,7 +91,7 @@
   <widget type="action_button" version="3.0.0">
     <name>nav_1</name>
     <class>NAV_BUTTON</class>
-    <x>552</x>
+    <x>512</x>
     <y>8</y>
     <width>112</width>
     <height>32</height>
@@ -114,6 +114,52 @@
         </macros>
         <target>replace</target>
         <description>One plot per channel</description>
+      </action>
+    </actions>
+  </widget>
+  <widget type="rectangle" version="2.0.0">
+    <name>pop_out_background</name>
+    <x>752</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <line_width>0</line_width>
+    <line_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </line_color>
+    <background_color>
+      <color name="Nav_Background" red="0" green="44" blue="75"/>
+    </background_color>
+    <corner_width>4</corner_width>
+    <corner_height>4</corner_height>
+  </widget>
+  <widget type="picture" version="2.0.0">
+    <name>pop_out_icon</name>
+    <x>758</x>
+    <y>14</y>
+    <width>20</width>
+    <height>20</height>
+    <file>pop_out.svg</file>
+    <stretch_image>true</stretch_image>
+  </widget>
+  <widget type="action_button" version="3.0.0">
+    <name>pop_out</name>
+    <x>752</x>
+    <y>8</y>
+    <width>32</width>
+    <height>32</height>
+    <text></text>
+    <transparent>true</transparent>
+    <tooltip>Open a large copy of this screen in a new window</tooltip>
+    <actions>
+      <action type="open_display">
+        <file>xspress_mca_overlay_large.bob</file>
+        <macros>
+          <P>$(P)</P>
+          <R>$(R)</R>
+        </macros>
+        <target>window</target>
+        <description>Open large in a new window</description>
       </action>
     </actions>
   </widget>
