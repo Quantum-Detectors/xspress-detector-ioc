@@ -162,12 +162,42 @@
     </line_color>
     <line_width use_class="true">0</line_width>
   </widget>
+  <widget type="label" version="2.0.0">
+    <name>sc_gates_label</name>
+    <x>296</x>
+    <y>2</y>
+    <width>152</width>
+    <height>16</height>
+    <text>System readiness:</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
+  <widget type="label" version="2.0.0">
+    <name>sc_state_label</name>
+    <x>456</x>
+    <y>2</y>
+    <width>108</width>
+    <height>16</height>
+    <text>Service state:</text>
+    <font>
+      <font name="Fine Print" family="Liberation Sans" style="REGULAR" size="12.0"/>
+    </font>
+    <foreground_color>
+      <color name="Header_Text" red="255" green="255" blue="255"/>
+    </foreground_color>
+    <transparent>true</transparent>
+  </widget>
   <widget type="progressbar" version="2.0.0">
     <name>sc_gates</name>
     <x>296</x>
-    <y>19</y>
+    <y>22</y>
     <width>152</width>
-    <height>10</height>
+    <height>20</height>
     <pv_name>$(P):SC:GATES_READY</pv_name>
     <limits_from_pv>true</limits_from_pv>
     <show_label>false</show_label>
@@ -182,7 +212,7 @@
   <widget type="multi_state_led" version="2.0.0">
     <name>sc_state_led</name>
     <x>456</x>
-    <y>14</y>
+    <y>22</y>
     <width>20</width>
     <height>20</height>
     <pv_name>$(P):SC:STATE</pv_name>
@@ -242,7 +272,7 @@
   <widget type="textupdate" version="2.0.0">
     <name>sc_state</name>
     <x>484</x>
-    <y>14</y>
+    <y>22</y>
     <width>80</width>
     <height>20</height>
     <pv_name>$(P):SC:STATE</pv_name>
