@@ -43,8 +43,8 @@ and its pop-out button opens the full wiring diagram.
 | `xspress_mca_overlay.bob` | Tab: all channels' MCA spectra on one plot, one colour per channel (`Trace_1`–`Trace_8`) with a legend; the header button switches between this and `xspress_mca.bob` in place | `P`, `R=:CAM:` |
 | `xspress_liveview.bob` | Tab: live spectrum and its channel / resgrade index (EDM `XspressLiveView`) | `P`, `R=:CAM:` |
 | `xspress_mca_large.bob`, `xspress_mca_overlay_large.bob`, `xspress_liveview_large.bob` | Window: 1600 × 896 copies of the three screens above, opened by their pop-out button; their header buttons open the other large screens | `P`, `R=:CAM:` |
-| `xspress_services.bob` | Tab: the stack's state, faults and Start / Stop / Restart controls, and its fault message; the pop-out button opens `xspress_services_large.bob` in a new window | `P`, `R=:SC:` |
-| `xspress_services_large.bob` | Window: wiring diagram of the services, their connections and the stack state, with the fault message, events and a legend (EDM `xspress-sc-wiring`) | `P`, `R=:SC:` |
+| `xspress_services.bob` | Tab: the stack's state, faults and Start / Stop / Restart controls, and its fault message; a Start service control button appears in the header while the IOC is not running; the pop-out button opens `xspress_services_large.bob` in a new window | `P`, `R=:SC:` |
+| `xspress_services_large.bob` | Window: wiring diagram of the services, their connections and the stack state, with the fault message, events and a legend (EDM `xspress-sc-wiring`); the same Start service control button | `P`, `R=:SC:` |
 | `xspress_service_edges.bob` | Tab: every connection's state (EDM `xspress-sc-edges`) | `P`, `R=:SC:` |
 | `xspress_service.bob` | Window: one service's unit, state, controls, listeners and journal (EDM `xspress-sc-<service>`) | `P`, `R`, `SVC` (e.g. `FR1`), `DESC`, `LISTENERS` (`fr`, `fp`, `xctrl`, `meta`, `lvm`, `odin`, `ioc`) |
 
