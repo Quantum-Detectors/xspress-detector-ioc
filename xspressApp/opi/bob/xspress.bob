@@ -198,6 +198,23 @@
     <vertical_alignment>1</vertical_alignment>
     <tooltip>Ready to take data: the services are up and the detector links are made</tooltip>
   </widget>
+  <widget type="progressbar" version="2.0.0">
+    <name>sc_gates</name>
+    <x>296</x>
+    <y>36</y>
+    <width>152</width>
+    <height>10</height>
+    <pv_name>$(P):SC:GATES_READY</pv_name>
+    <limits_from_pv>true</limits_from_pv>
+    <show_label>false</show_label>
+    <fill_color>
+      <color name="LED_Green_On" red="60" green="249" blue="89"/>
+    </fill_color>
+    <background_color>
+      <color name="LED_Green_Off" red="47" green="88" blue="49"/>
+    </background_color>
+    <tooltip>Services, listeners and connections ready: $(pv_name) $(pv_value)</tooltip>
+  </widget>
   <widget type="multi_state_led" version="2.0.0">
     <name>sc_state_led</name>
     <x>456</x>
