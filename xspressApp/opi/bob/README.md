@@ -31,7 +31,7 @@ and its pop-out button opens the full wiring diagram.
 
 | File | Shows | Macros |
 |---|---|---|
-| `xspress.bob` | Main window: header, service state, navigation tabs | `P` |
+| `xspress.bob` | Main window: header, service state and system-ready indicator, navigation tabs | `P` |
 | `xspress_detector.bob` | Tab: info, acquisition, status, detector, image, configuration, adapter (EDM `XspressMain`) | `P`, `R=:CAM:` |
 | `xspress_channels.bob` | Tab: window counts and limits, counts and timing per channel (EDM `Xspress8Channels`, `XspressStatus8Chan2Fem` frames) | `P`, `R=:CAM:` |
 | `xspress_dtc.bob` | Tab: dead-time correction parameters per channel, beam energy (EDM `Xspress8ChannelsDTC`) | `P`, `R=:CAM:` |
